@@ -16792,23 +16792,6 @@
         "toColumn": "ID"
       },
       {
-        "name": "cc325b96-0dd7-457b-b621-6c9852f11251",
-        "fromTable": "D_Dim_Invoices_5asm_w_Ta7seel",
-        "fromColumn": "Geha_Unique_Tax_ID",
-        "toTable": "B_Dim_Gehat_5asm_w_ta7seel",
-        "toColumn": "Unique_Tax_Id",
-        "isActive": false,
-        "crossFilteringBehavior": "bothDirections"
-      },
-      {
-        "name": "c748279e-e8af-4c4b-8496-976ab981a617",
-        "fromTable": "D_Dim_Invoices_5asm_w_Ta7seel",
-        "fromColumn": "Taxpayer_Id",
-        "toTable": "B_Dim_Gehat_5asm_w_ta7seel",
-        "toColumn": "Taxpayer_Id",
-        "crossFilteringBehavior": "bothDirections"
-      },
-      {
         "name": "aec90e43-3217-4cf7-a092-210dceb84465",
         "fromTable": "C_Dim_Declarations",
         "fromColumn": "DeclarationTypeID",
@@ -16913,6 +16896,23 @@
         "fromColumn": "District",
         "toTable": "A_Gamarek_Districts",
         "toColumn": "District_Code",
+        "crossFilteringBehavior": "bothDirections"
+      },
+      {
+        "name": "e5ae5e40-4fbb-4e9c-980c-d16306f39653",
+        "fromTable": "D_Dim_Invoices_5asm_w_Ta7seel",
+        "fromColumn": "Taxpayer_Id",
+        "toTable": "B_Dim_Gehat_5asm_w_ta7seel",
+        "toColumn": "Taxpayer_Id",
+        "isActive": false,
+        "crossFilteringBehavior": "bothDirections"
+      },
+      {
+        "name": "cc325b96-0dd7-457b-b621-6c9852f11251",
+        "fromTable": "D_Dim_Invoices_5asm_w_Ta7seel",
+        "fromColumn": "Geha_Unique_Tax_ID",
+        "toTable": "B_Dim_Gehat_5asm_w_ta7seel",
+        "toColumn": "Unique_Tax_Id",
         "crossFilteringBehavior": "bothDirections"
       }
     ],
