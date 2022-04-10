@@ -15371,6 +15371,63 @@
           {
             "name": "Transaction_TOTAL_Net_Sales",
             "expression": "CALCULATE(SUM(D_Dim_Invoices_5asm_w_Ta7seel[TransactionNet]))"
+          },
+          {
+            "name": "ETA_NET_SUM_1",
+            "expression": "CALCULATE(SUM(D_Dim_Invoices_5asm_w_Ta7seel[TransactionNet]),D_Dim_Invoices_5asm_w_Ta7seel[OpponentTypeId]=\"1\" )",
+            "isHidden": true
+          },
+          {
+            "name": "ETA_NET_SUM_2",
+            "expression": "CALCULATE(SUM(D_Dim_Invoices_5asm_w_Ta7seel[TransactionNet]),D_Dim_Invoices_5asm_w_Ta7seel[OpponentTypeId]=\"5\",D_Dim_Invoices_5asm_w_Ta7seel[OpponentTypeId]=\"6\" )",
+            "isHidden": true
+          },
+          {
+            "name": "ETA_NET_SUM_3",
+            "expression": "CALCULATE(SUM(D_Dim_Invoices_5asm_w_Ta7seel[TransactionNet]),D_Dim_Invoices_5asm_w_Ta7seel[OpponentTypeId]=\"4\",D_Dim_Invoices_5asm_w_Ta7seel[OpponentTypeId]=\"3\",D_Dim_Invoices_5asm_w_Ta7seel[OpponentTypeId]=\"2\" )",
+            "isHidden": true
+          },
+          {
+            "name": "ETA_TAX_SUM_1",
+            "expression": "CALCULATE(SUM(D_Dim_Invoices_5asm_w_Ta7seel[CollectedMoney]),D_Dim_Invoices_5asm_w_Ta7seel[OpponentTypeId]=\"1\" )",
+            "isHidden": true
+          },
+          {
+            "name": "ETA_TAX_SUM_2",
+            "expression": "CALCULATE(SUM(D_Dim_Invoices_5asm_w_Ta7seel[CollectedMoney]),D_Dim_Invoices_5asm_w_Ta7seel[OpponentTypeId]=\"5\",D_Dim_Invoices_5asm_w_Ta7seel[OpponentTypeId]=\"6\" )",
+            "isHidden": true
+          },
+          {
+            "name": "ETA_TAX_SUM_3",
+            "expression": "CALCULATE(SUM(D_Dim_Invoices_5asm_w_Ta7seel[CollectedMoney]),D_Dim_Invoices_5asm_w_Ta7seel[OpponentTypeId]=\"4\",D_Dim_Invoices_5asm_w_Ta7seel[OpponentTypeId]=\"3\",D_Dim_Invoices_5asm_w_Ta7seel[OpponentTypeId]=\"2\" )",
+            "isHidden": true
+          },
+          {
+            "name": "ETA_TOTAL_Value_SUM_1",
+            "expression": "CALCULATE(SUM(D_Dim_Invoices_5asm_w_Ta7seel[TransactionTotalValue]),D_Dim_Invoices_5asm_w_Ta7seel[OpponentTypeId]=\"1\" )",
+            "isHidden": true
+          },
+          {
+            "name": "ETA_TOTAL_Value_SUM_2",
+            "expression": "CALCULATE(SUM(D_Dim_Invoices_5asm_w_Ta7seel[TransactionTotalValue]),D_Dim_Invoices_5asm_w_Ta7seel[OpponentTypeId]=\"5\",D_Dim_Invoices_5asm_w_Ta7seel[OpponentTypeId]=\"6\" )",
+            "isHidden": true
+          },
+          {
+            "name": "ETA_TOTAL_Value_SUM_3",
+            "expression": "CALCULATE(SUM(D_Dim_Invoices_5asm_w_Ta7seel[CollectedMoney]),D_Dim_Invoices_5asm_w_Ta7seel[OpponentTypeId]=\"4\",D_Dim_Invoices_5asm_w_Ta7seel[OpponentTypeId]=\"3\",D_Dim_Invoices_5asm_w_Ta7seel[OpponentTypeId]=\"2\" )",
+            "isHidden": true
+          },
+          {
+            "name": "ETA_NET_SUM",
+            "expression": "[ETA_NET_SUM_1]+[ETA_NET_SUM_2]-[ETA_NET_SUM_3]"
+          },
+          {
+            "name": "ETA_TAX_SUM",
+            "expression": "[ETA_TAX_SUM_1]+[ETA_TAX_SUM_2]-[ETA_TAX_SUM_3]"
+          },
+          {
+            "name": "ETA_TOTAL_Value_SUM",
+            "expression": "[ETA_TOTAL_Value_SUM_1]+[ETA_TOTAL_Value_SUM_2]-[ETA_TOTAL_Value_SUM_3]"
           }
         ],
         "annotations": [
