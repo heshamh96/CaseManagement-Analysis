@@ -16453,6 +16453,422 @@
             }
           }
         ]
+      },
+      {
+        "name": "D_ETA_nmz_41_Full_Withholding_Transactions",
+        "columns": [
+          {
+            "name": "TransactionData_Id",
+            "dataType": "string",
+            "sourceColumn": "TransactionData_Id",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "kst_pageno",
+            "dataType": "string",
+            "sourceColumn": "kst_pageno",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "kst_year",
+            "dataType": "string",
+            "sourceColumn": "kst_year",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "bat_prd",
+            "dataType": "string",
+            "sourceColumn": "bat_prd",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "kst_docdate",
+            "dataType": "dateTime",
+            "sourceColumn": "kst_docdate",
+            "formatString": "General Date",
+            "sourceProviderType": "DBTimeStamp"
+          },
+          {
+            "name": "kst_jul",
+            "dataType": "string",
+            "sourceColumn": "kst_jul",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "kst_serl",
+            "dataType": "string",
+            "sourceColumn": "kst_serl",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "gha_num",
+            "dataType": "string",
+            "sourceColumn": "gha_num",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "gha_name",
+            "dataType": "string",
+            "sourceColumn": "gha_name",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "kst_docnum",
+            "dataType": "string",
+            "sourceColumn": "kst_docnum",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "kst_docnum1",
+            "dataType": "int64",
+            "sourceColumn": "kst_docnum1",
+            "sourceProviderType": "Integer"
+          },
+          {
+            "name": "kst_docnum2",
+            "dataType": "string",
+            "sourceColumn": "kst_docnum2",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "kst_ghatype",
+            "dataType": "string",
+            "sourceColumn": "kst_ghatype",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "kst_dealtype",
+            "dataType": "string",
+            "sourceColumn": "kst_dealtype",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "kst_ksmval",
+            "dataType": "double",
+            "sourceColumn": "kst_ksmval",
+            "sourceProviderType": "Numeric"
+          },
+          {
+            "name": "kst_ratflag",
+            "dataType": "int64",
+            "sourceColumn": "kst_ratflag",
+            "sourceProviderType": "Integer"
+          },
+          {
+            "name": "kst_flag",
+            "dataType": "int64",
+            "sourceColumn": "kst_flag",
+            "sourceProviderType": "Integer"
+          },
+          {
+            "name": "kst_sysdate",
+            "dataType": "dateTime",
+            "sourceColumn": "kst_sysdate",
+            "formatString": "General Date",
+            "sourceProviderType": "DBTimeStamp"
+          },
+          {
+            "name": "kst_ruid",
+            "dataType": "int64",
+            "sourceColumn": "kst_ruid",
+            "sourceProviderType": "Integer"
+          },
+          {
+            "name": "kst_rsysdate",
+            "dataType": "dateTime",
+            "sourceColumn": "kst_rsysdate",
+            "formatString": "General Date",
+            "sourceProviderType": "DBTimeStamp"
+          },
+          {
+            "name": "kst_upuid",
+            "dataType": "int64",
+            "sourceColumn": "kst_upuid",
+            "sourceProviderType": "Integer"
+          },
+          {
+            "name": "kst_upsysdate",
+            "dataType": "dateTime",
+            "sourceColumn": "kst_upsysdate",
+            "formatString": "General Date",
+            "sourceProviderType": "DBTimeStamp"
+          },
+          {
+            "name": "flag",
+            "dataType": "int64",
+            "sourceColumn": "flag",
+            "sourceProviderType": "Integer"
+          },
+          {
+            "name": "Taxpayer_Id",
+            "dataType": "string",
+            "sourceColumn": "Taxpayer_Id",
+            "sourceProviderType": "Guid"
+          },
+          {
+            "name": "kst_taxid",
+            "dataType": "string",
+            "sourceColumn": "kst_taxid",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "kst_file",
+            "dataType": "string",
+            "sourceColumn": "kst_file",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "kst_date",
+            "dataType": "dateTime",
+            "sourceColumn": "kst_date",
+            "formatString": "General Date",
+            "sourceProviderType": "DBTimeStamp"
+          },
+          {
+            "name": "kst_natcode",
+            "dataType": "string",
+            "sourceColumn": "kst_natcode",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "kst_totval",
+            "dataType": "double",
+            "sourceColumn": "kst_totval",
+            "sourceProviderType": "Numeric"
+          },
+          {
+            "name": "kst_ksmcode",
+            "dataType": "string",
+            "sourceColumn": "kst_ksmcode",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "kst_netval",
+            "dataType": "double",
+            "sourceColumn": "kst_netval",
+            "sourceProviderType": "Numeric"
+          },
+          {
+            "name": "kst_prcnt",
+            "dataType": "double",
+            "sourceColumn": "kst_prcnt",
+            "sourceProviderType": "Numeric"
+          },
+          {
+            "name": "kst_taxval",
+            "dataType": "double",
+            "sourceColumn": "kst_taxval",
+            "sourceProviderType": "Numeric"
+          },
+          {
+            "name": "kst_currency",
+            "dataType": "string",
+            "sourceColumn": "kst_currency",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "kst_uid",
+            "dataType": "string",
+            "sourceColumn": "kst_uid",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "kst_reg",
+            "dataType": "string",
+            "sourceColumn": "kst_reg",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "kst_acttype",
+            "dataType": "string",
+            "sourceColumn": "kst_acttype",
+            "sourceProviderType": "WChar"
+          },
+          {
+            "name": "bat_branch",
+            "dataType": "string",
+            "sourceColumn": "bat_branch",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "Zero_Tax_Cause",
+            "dataType": "string",
+            "sourceColumn": "Zero_Tax_Cause",
+            "sourceProviderType": "WChar"
+          },
+          {
+            "name": "line_Number_Inside_Batch",
+            "dataType": "int64",
+            "sourceColumn": "line_Number_Inside_Batch",
+            "sourceProviderType": "Integer"
+          },
+          {
+            "name": "Insertion_Date",
+            "dataType": "dateTime",
+            "sourceColumn": "Insertion_Date",
+            "formatString": "General Date",
+            "sourceProviderType": "DBTimeStamp"
+          },
+          {
+            "name": "kst_lineno",
+            "dataType": "int64",
+            "sourceColumn": "kst_lineno",
+            "sourceProviderType": "Integer"
+          },
+          {
+            "name": "Developed_By",
+            "dataType": "string",
+            "sourceColumn": "Developed_By",
+            "sourceProviderType": "Char"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "D_ETA_nmz_41_Full_Withholding_Transactions",
+            "dataView": "full",
+            "source": {
+              "query": " SELECT [dbo].[ETA_Full_Withholding_Transactions].* FROM [dbo].[ETA_Full_Withholding_Transactions] ",
+              "dataSource": "DWH_TAX"
+            }
+          }
+        ],
+        "annotations": [
+          {
+            "name": "_TM_ExtProp_QueryDefinition",
+            "value": " SELECT [dbo].[ETA_Full_Withholding_Transactions].* FROM [dbo].[ETA_Full_Withholding_Transactions] "
+          },
+          {
+            "name": "_TM_ExtProp_DbTableName",
+            "value": "ETA_Full_Withholding_Transactions"
+          },
+          {
+            "name": "_TM_ExtProp_DbSchemaName",
+            "value": "dbo"
+          }
+        ]
+      },
+      {
+        "name": "B_Dim_TaxPayers_Universe_WithHoldings",
+        "columns": [
+          {
+            "type": "calculatedTableColumn",
+            "name": "Unique_Tax_Id",
+            "dataType": "string",
+            "isNameInferred": true,
+            "isDataTypeInferred": true,
+            "sourceColumn": "B_Dim_TaxPayers_Universe_Master[Unique_Tax_Id]"
+          },
+          {
+            "type": "calculatedTableColumn",
+            "name": "Taxpayer_Name",
+            "dataType": "string",
+            "isNameInferred": true,
+            "isDataTypeInferred": true,
+            "sourceColumn": "B_Dim_TaxPayers_Universe_Master[Taxpayer_Name]"
+          },
+          {
+            "type": "calculatedTableColumn",
+            "name": "IS_Registered",
+            "dataType": "boolean",
+            "isNameInferred": true,
+            "isDataTypeInferred": true,
+            "sourceColumn": "B_Dim_TaxPayers_Universe_Master[IS_Registered]",
+            "formatString": "\"TRUE\";\"TRUE\";\"FALSE\""
+          },
+          {
+            "type": "calculatedTableColumn",
+            "name": "IS_Not_Registered",
+            "dataType": "boolean",
+            "isNameInferred": true,
+            "isDataTypeInferred": true,
+            "sourceColumn": "B_Dim_TaxPayers_Universe_Master[IS_Not_Registered]",
+            "formatString": "\"TRUE\";\"TRUE\";\"FALSE\""
+          },
+          {
+            "type": "calculatedTableColumn",
+            "name": "IS_Dummy",
+            "dataType": "boolean",
+            "isNameInferred": true,
+            "isDataTypeInferred": true,
+            "sourceColumn": "B_Dim_TaxPayers_Universe_Master[IS_Dummy]",
+            "formatString": "\"TRUE\";\"TRUE\";\"FALSE\""
+          },
+          {
+            "type": "calculatedTableColumn",
+            "name": "Region_Name",
+            "dataType": "string",
+            "isNameInferred": true,
+            "isDataTypeInferred": true,
+            "sourceColumn": "B_Dim_TaxPayers_Universe_Master[Region_Name]"
+          },
+          {
+            "type": "calculatedTableColumn",
+            "name": "DistrictVat_Name",
+            "dataType": "string",
+            "isNameInferred": true,
+            "isDataTypeInferred": true,
+            "sourceColumn": "B_Dim_TaxPayers_Universe_Master[DistrictVat_Name]"
+          },
+          {
+            "type": "calculatedTableColumn",
+            "name": "DistrictVat_Code",
+            "dataType": "string",
+            "isNameInferred": true,
+            "isDataTypeInferred": true,
+            "sourceColumn": "B_Dim_TaxPayers_Universe_Master[DistrictVat_Code]"
+          },
+          {
+            "type": "calculatedTableColumn",
+            "name": "Region_Code",
+            "dataType": "string",
+            "isNameInferred": true,
+            "isDataTypeInferred": true,
+            "sourceColumn": "B_Dim_TaxPayers_Universe_Master[Region_Code]"
+          },
+          {
+            "type": "calculatedTableColumn",
+            "name": "IS_Income_Registered",
+            "dataType": "boolean",
+            "isNameInferred": true,
+            "isDataTypeInferred": true,
+            "sourceColumn": "B_Dim_TaxPayers_Universe_Master[IS_Income_Registered]",
+            "formatString": "\"TRUE\";\"TRUE\";\"FALSE\""
+          },
+          {
+            "type": "calculatedTableColumn",
+            "name": "IS_Vat_Registred",
+            "dataType": "boolean",
+            "isNameInferred": true,
+            "isDataTypeInferred": true,
+            "sourceColumn": "B_Dim_TaxPayers_Universe_Master[IS_Vat_Registred]",
+            "formatString": "\"TRUE\";\"TRUE\";\"FALSE\""
+          },
+          {
+            "type": "calculatedTableColumn",
+            "name": "District_Name",
+            "dataType": "string",
+            "isNameInferred": true,
+            "isDataTypeInferred": true,
+            "sourceColumn": "B_Dim_TaxPayers_Universe_Master[District_Name]"
+          },
+          {
+            "type": "calculatedTableColumn",
+            "name": "District_Code",
+            "dataType": "string",
+            "isNameInferred": true,
+            "isDataTypeInferred": true,
+            "sourceColumn": "B_Dim_TaxPayers_Universe_Master[District_Code]"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "CalculatedTable 1",
+            "source": {
+              "type": "calculated",
+              "expression": "CALCULATETABLE(B_Dim_TaxPayers_Universe_Master)"
+            }
+          }
+        ]
       }
     ],
     "relationships": [
@@ -16851,6 +17267,22 @@
         "name": "cc325b96-0dd7-457b-b621-6c9852f11251",
         "fromTable": "D_Dim_Invoices_5asm_w_Ta7seel",
         "fromColumn": "Geha_Unique_Tax_ID",
+        "toTable": "B_Dim_Gehat_5asm_w_ta7seel",
+        "toColumn": "Unique_Tax_Id",
+        "crossFilteringBehavior": "bothDirections"
+      },
+      {
+        "name": "705f3f3b-243f-4737-91c2-29e008c13aaf",
+        "fromTable": "D_ETA_nmz_41_Full_Withholding_Transactions",
+        "fromColumn": "kst_taxid",
+        "toTable": "B_Dim_TaxPayers_Universe_WithHoldings",
+        "toColumn": "Unique_Tax_Id",
+        "crossFilteringBehavior": "bothDirections"
+      },
+      {
+        "name": "937903b3-2a5f-4640-8ca7-0034b4296b1b",
+        "fromTable": "D_ETA_nmz_41_Full_Withholding_Transactions",
+        "fromColumn": "gha_num",
         "toTable": "B_Dim_Gehat_5asm_w_ta7seel",
         "toColumn": "Unique_Tax_Id",
         "crossFilteringBehavior": "bothDirections"
