@@ -13,7 +13,7 @@
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Development' ">
     <OutputPath>bin\</OutputPath>
-    <DeploymentServerName>TXBI-DWA-01\TXBIDB</DeploymentServerName>
+    <DeploymentServerName>TXBI-DWA-02\TXBIDB</DeploymentServerName>
     <DeploymentServerEdition>Developer</DeploymentServerEdition>
     <DeploymentServerVersion>Unknown</DeploymentServerVersion>
     <DeploymentServerDatabase>TaxVat_All_in</DeploymentServerDatabase>
