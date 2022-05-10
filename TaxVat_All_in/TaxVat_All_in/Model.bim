@@ -3792,955 +3792,7 @@
         ],
         "partitions": [
           {
-            "name": "C_Dim_Declarations",
-            "dataView": "full",
-            "source": {
-              "query": " SELECT [dbo].[Dim_Declarations].[ID],[dbo].[Dim_Declarations].[DeclarationTypeID],[dbo].[Dim_Declarations].[FK_VAT_Type_ID],[dbo].[Dim_Declarations].[DocumentNum],[dbo].[Dim_Declarations].[LinkCodeID],[dbo].[Dim_Declarations].[TaxpayerID],[dbo].[Dim_Declarations].[UniqueTaxID],[dbo].[Dim_Declarations].[TaxPeriod],[dbo].[Dim_Declarations].[TableTaxTotal],[dbo].[Dim_Declarations].[TableTaxAdjustment],[dbo].[Dim_Declarations].[TableTaxVat],[dbo].[Dim_Declarations].[SalesTotal],[dbo].[Dim_Declarations].[SalesAdjustment],[dbo].[Dim_Declarations].[SalesVat],[dbo].[Dim_Declarations].[PurchaseTotal],[dbo].[Dim_Declarations].[PurchaseAdjustment],[dbo].[Dim_Declarations].[PurchaseVat],[dbo].[Dim_Declarations].[RecivableTax],[dbo].[Dim_Declarations].[DebtValue],[dbo].[Dim_Declarations].[TotalTaxValue],[dbo].[Dim_Declarations].[ApplicantName],[dbo].[Dim_Declarations].[NationalPassNum],[dbo].[Dim_Declarations].[IsSigned],[dbo].[Dim_Declarations].[Representitive],[dbo].[Dim_Declarations].[AuthorizationNumber],[dbo].[Dim_Declarations].[CreationDate],[dbo].[Dim_Declarations].[UpdatedDate],[dbo].[Dim_Declarations].[IsDeleted],[dbo].[Dim_Declarations].[IsSend],[dbo].[Dim_Declarations].[SendDate],[dbo].[Dim_Declarations].[IsPaid],[dbo].[Dim_Declarations].[IsReplicated],[dbo].[Dim_Declarations].[PaymentDate],[dbo].[Dim_Declarations].[PaymentMethod],[dbo].[Dim_Declarations].[PersonalizeTypeID],[dbo].[Dim_Declarations].[ReconciliationType],[dbo].[Dim_Declarations].[AcceptanceDate],[dbo].[Dim_Declarations].[RejectionDate],[dbo].[Dim_Declarations].[RecoPaymentDate],[dbo].[Dim_Declarations].[IsPaidTable],[dbo].[Dim_Declarations].[ReconciliationValue],[dbo].[Dim_Declarations].[Artificial_Key],[dbo].[Dim_Declarations].[FK_TaxPeriod_ID],[dbo].[Dim_Declarations].[Fk_Send_Date_ID],[dbo].[Dim_Declarations].[Dec_ID_S],[dbo].[Dim_Declarations].[Submission_Delay],[dbo].[Dim_Declarations].[FK_SSEND_DDATE],[dbo].[Dim_Declarations].[Developed_By],[dbo].[Dim_Declarations].[Namozag_Name] FROM [dbo].[Dim_Declarations] ",
-              "dataSource": "DWH_TAX"
-            },
-            "annotations": [
-              {
-                "name": "TableWidgetSerialization",
-                "value": [
-                  "<?xml version=\"1.0\" encoding=\"UTF-16\"?><Gemini xmlns=\"TableWidgetSerialization\"><AnnotationContent><![CDATA[<?xml version=\"1.0\"?>",
-                  "<TableWidgetGridSerialization xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\">",
-                  "  <ColumnSuggestedType />",
-                  "  <ColumnFormat />",
-                  "  <ColumnAccuracy />",
-                  "  <ColumnCurrencySymbol />",
-                  "  <ColumnPositivePattern />",
-                  "  <ColumnNegativePattern />",
-                  "  <ColumnWidths>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>ID</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>49</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>DeclarationTypeID</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>148</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>FK_VAT_Type_ID</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>143</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>DocumentNum</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>129</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>LinkCodeID</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>105</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>TaxpayerID</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>107</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>UniqueTaxID</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>114</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>TaxPeriod</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>96</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>TableTaxTotal</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>120</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>TableTaxAdjustment</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>161</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>TableTaxVat</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>110</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>SalesTotal</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>95</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>SalesAdjustment</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>136</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>SalesVat</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>85</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>PurchaseTotal</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>121</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>PurchaseAdjustment</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>162</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>PurchaseVat</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>111</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>RecivableTax</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>115</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>DebtValue</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>97</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>TotalTaxValue</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>120</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>ApplicantName</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>125</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>NationalPassNum</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>139</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>IsSigned</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>86</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>Representitive</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>121</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>AuthorizationNumber</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>164</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>SignedDate</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>105</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>CreationDate</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>115</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>UpdatedDate</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>116</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>IsDeleted</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>91</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>IsSend</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>76</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>SendDate</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>95</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>IsPaid</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>70</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>IsReplicated</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>107</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>PaymentDate</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>119</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>PaymentMethod</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>136</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>PersonalizeTypeID</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>146</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>ReconciliationType</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>148</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>AcceptanceDate</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>135</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>RejectionDate</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>121</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>RecoPaymentDate</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>150</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>IsPaidTable</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>102</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>ReconciliationValue</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>149</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>Artificial_Key</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>110</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>FK_TaxPeriod_ID</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>141</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>Fk_Send_Date_ID</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>147</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>Dec_ID_S</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>97</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>Submission_Delay</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>145</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>FK_SSEND_DDATE</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>153</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>Developed_By</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>124</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>est5las_Sales_Is_Correct</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>186</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>Namozag_Name</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>135</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>SalesNet</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>86</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>SalesTableNet</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>118</int>",
-                  "      </value>",
-                  "    </item>",
-                  "  </ColumnWidths>",
-                  "  <ColumnDisplayIndex>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>ID</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>0</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>DeclarationTypeID</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>1</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>FK_VAT_Type_ID</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>2</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>DocumentNum</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>3</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>LinkCodeID</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>4</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>TaxpayerID</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>5</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>UniqueTaxID</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>6</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>TaxPeriod</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>7</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>TableTaxTotal</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>8</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>TableTaxAdjustment</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>9</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>TableTaxVat</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>10</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>SalesTotal</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>11</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>SalesAdjustment</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>12</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>SalesVat</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>13</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>PurchaseTotal</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>14</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>PurchaseAdjustment</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>15</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>PurchaseVat</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>16</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>RecivableTax</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>17</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>DebtValue</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>18</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>TotalTaxValue</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>19</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>ApplicantName</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>20</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>NationalPassNum</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>21</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>IsSigned</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>22</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>Representitive</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>23</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>AuthorizationNumber</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>24</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>SignedDate</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>25</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>CreationDate</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>26</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>UpdatedDate</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>27</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>IsDeleted</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>28</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>IsSend</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>29</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>SendDate</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>30</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>IsPaid</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>31</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>IsReplicated</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>32</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>PaymentDate</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>33</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>PaymentMethod</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>34</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>PersonalizeTypeID</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>35</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>ReconciliationType</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>36</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>AcceptanceDate</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>37</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>RejectionDate</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>38</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>RecoPaymentDate</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>39</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>IsPaidTable</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>40</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>ReconciliationValue</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>41</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>Artificial_Key</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>42</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>FK_TaxPeriod_ID</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>43</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>Fk_Send_Date_ID</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>44</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>Dec_ID_S</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>45</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>Submission_Delay</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>46</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>FK_SSEND_DDATE</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>47</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>Developed_By</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>48</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>est5las_Sales_Is_Correct</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>49</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>Namozag_Name</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>50</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>SalesNet</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>51</int>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>SalesTableNet</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <int>52</int>",
-                  "      </value>",
-                  "    </item>",
-                  "  </ColumnDisplayIndex>",
-                  "  <ColumnFrozen />",
-                  "  <ColumnChecked>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>SignedDate</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <boolean>false</boolean>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>Submission_Delay</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <boolean>true</boolean>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>FK_SSEND_DDATE</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <boolean>true</boolean>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>Developed_By</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <boolean>true</boolean>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>est5las_Sales_Is_Correct</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <boolean>false</boolean>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>Namozag_Name</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <boolean>true</boolean>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>SalesNet</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <boolean>false</boolean>",
-                  "      </value>",
-                  "    </item>",
-                  "    <item>",
-                  "      <key>",
-                  "        <string>SalesTableNet</string>",
-                  "      </key>",
-                  "      <value>",
-                  "        <boolean>false</boolean>",
-                  "      </value>",
-                  "    </item>",
-                  "  </ColumnChecked>",
-                  "  <ColumnFilter />",
-                  "  <SelectionFilter />",
-                  "  <FilterParameters />",
-                  "  <IsSortDescending>false</IsSortDescending>",
-                  "</TableWidgetGridSerialization>]]></AnnotationContent></Gemini>"
-                ]
-              }
-            ]
-          },
-          {
             "name": "C_Dim_Declarations_2021_Q4",
-            "mode": "import",
             "source": {
               "query": [
                 "SELECT [dbo].[Dim_Declarations].[ID],[dbo].[Dim_Declarations].[DeclarationTypeID],[dbo].[Dim_Declarations].[FK_VAT_Type_ID],[dbo].[Dim_Declarations].[DocumentNum],[dbo].[Dim_Declarations].[LinkCodeID],[dbo].[Dim_Declarations].[TaxpayerID],[dbo].[Dim_Declarations].[UniqueTaxID],[dbo].[Dim_Declarations].[TaxPeriod],[dbo].[Dim_Declarations].[TableTaxTotal],[dbo].[Dim_Declarations].[TableTaxAdjustment],[dbo].[Dim_Declarations].[TableTaxVat],[dbo].[Dim_Declarations].[SalesTotal],[dbo].[Dim_Declarations].[SalesAdjustment],[dbo].[Dim_Declarations].[SalesVat],[dbo].[Dim_Declarations].[PurchaseTotal],[dbo].[Dim_Declarations].[PurchaseAdjustment],[dbo].[Dim_Declarations].[PurchaseVat],[dbo].[Dim_Declarations].[RecivableTax],[dbo].[Dim_Declarations].[DebtValue],[dbo].[Dim_Declarations].[TotalTaxValue],[dbo].[Dim_Declarations].[ApplicantName],[dbo].[Dim_Declarations].[NationalPassNum],[dbo].[Dim_Declarations].[IsSigned],[dbo].[Dim_Declarations].[Representitive],[dbo].[Dim_Declarations].[AuthorizationNumber],[dbo].[Dim_Declarations].[CreationDate],[dbo].[Dim_Declarations].[UpdatedDate],[dbo].[Dim_Declarations].[IsDeleted],[dbo].[Dim_Declarations].[IsSend],[dbo].[Dim_Declarations].[SendDate],[dbo].[Dim_Declarations].[IsPaid],[dbo].[Dim_Declarations].[IsReplicated],[dbo].[Dim_Declarations].[PaymentDate],[dbo].[Dim_Declarations].[PaymentMethod],[dbo].[Dim_Declarations].[PersonalizeTypeID],[dbo].[Dim_Declarations].[ReconciliationType],[dbo].[Dim_Declarations].[AcceptanceDate],[dbo].[Dim_Declarations].[RejectionDate],[dbo].[Dim_Declarations].[RecoPaymentDate],[dbo].[Dim_Declarations].[IsPaidTable],[dbo].[Dim_Declarations].[ReconciliationValue],[dbo].[Dim_Declarations].[Artificial_Key],[dbo].[Dim_Declarations].[FK_TaxPeriod_ID],[dbo].[Dim_Declarations].[Fk_Send_Date_ID],[dbo].[Dim_Declarations].[Dec_ID_S],[dbo].[Dim_Declarations].[Submission_Delay],[dbo].[Dim_Declarations].[FK_SSEND_DDATE],[dbo].[Dim_Declarations].[Developed_By],[dbo].[Dim_Declarations].[Namozag_Name] FROM [dbo].[Dim_Declarations]",
@@ -4998,6 +4050,28 @@
                   "<?xml version=\"1.0\" encoding=\"UTF-16\"?><Gemini xmlns=\"QueryEditorSerialization\"><AnnotationContent><![CDATA[<RSQueryCommandText>SELECT [dbo].[Dim_Declarations].[ID],[dbo].[Dim_Declarations].[DeclarationTypeID],[dbo].[Dim_Declarations].[FK_VAT_Type_ID],[dbo].[Dim_Declarations].[DocumentNum],[dbo].[Dim_Declarations].[LinkCodeID],[dbo].[Dim_Declarations].[TaxpayerID],[dbo].[Dim_Declarations].[UniqueTaxID],[dbo].[Dim_Declarations].[TaxPeriod],[dbo].[Dim_Declarations].[TableTaxTotal],[dbo].[Dim_Declarations].[TableTaxAdjustment],[dbo].[Dim_Declarations].[TableTaxVat],[dbo].[Dim_Declarations].[SalesTotal],[dbo].[Dim_Declarations].[SalesAdjustment],[dbo].[Dim_Declarations].[SalesVat],[dbo].[Dim_Declarations].[PurchaseTotal],[dbo].[Dim_Declarations].[PurchaseAdjustment],[dbo].[Dim_Declarations].[PurchaseVat],[dbo].[Dim_Declarations].[RecivableTax],[dbo].[Dim_Declarations].[DebtValue],[dbo].[Dim_Declarations].[TotalTaxValue],[dbo].[Dim_Declarations].[ApplicantName],[dbo].[Dim_Declarations].[NationalPassNum],[dbo].[Dim_Declarations].[IsSigned],[dbo].[Dim_Declarations].[Representitive],[dbo].[Dim_Declarations].[AuthorizationNumber],[dbo].[Dim_Declarations].[CreationDate],[dbo].[Dim_Declarations].[UpdatedDate],[dbo].[Dim_Declarations].[IsDeleted],[dbo].[Dim_Declarations].[IsSend],[dbo].[Dim_Declarations].[SendDate],[dbo].[Dim_Declarations].[IsPaid],[dbo].[Dim_Declarations].[IsReplicated],[dbo].[Dim_Declarations].[PaymentDate],[dbo].[Dim_Declarations].[PaymentMethod],[dbo].[Dim_Declarations].[PersonalizeTypeID],[dbo].[Dim_Declarations].[ReconciliationType],[dbo].[Dim_Declarations].[AcceptanceDate],[dbo].[Dim_Declarations].[RejectionDate],[dbo].[Dim_Declarations].[RecoPaymentDate],[dbo].[Dim_Declarations].[IsPaidTable],[dbo].[Dim_Declarations].[ReconciliationValue],[dbo].[Dim_Declarations].[Artificial_Key],[dbo].[Dim_Declarations].[FK_TaxPeriod_ID],[dbo].[Dim_Declarations].[Fk_Send_Date_ID],[dbo].[Dim_Declarations].[Dec_ID_S],[dbo].[Dim_Declarations].[Submission_Delay],[dbo].[Dim_Declarations].[FK_SSEND_DDATE],[dbo].[Dim_Declarations].[Developed_By],[dbo].[Dim_Declarations].[Namozag_Name] FROM [dbo].[Dim_Declarations]",
                   "where ",
                   "TaxPeriod in ('201901','201902','201903')</RSQueryCommandText><RSQueryCommandType>Text</RSQueryCommandType><RSQueryDesignState></RSQueryDesignState>]]></AnnotationContent></Gemini>"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "C_Dim_Declarations_2018_and_Before",
+            "mode": "import",
+            "source": {
+              "query": [
+                "SELECT [dbo].[Dim_Declarations].[ID],[dbo].[Dim_Declarations].[DeclarationTypeID],[dbo].[Dim_Declarations].[FK_VAT_Type_ID],[dbo].[Dim_Declarations].[DocumentNum],[dbo].[Dim_Declarations].[LinkCodeID],[dbo].[Dim_Declarations].[TaxpayerID],[dbo].[Dim_Declarations].[UniqueTaxID],[dbo].[Dim_Declarations].[TaxPeriod],[dbo].[Dim_Declarations].[TableTaxTotal],[dbo].[Dim_Declarations].[TableTaxAdjustment],[dbo].[Dim_Declarations].[TableTaxVat],[dbo].[Dim_Declarations].[SalesTotal],[dbo].[Dim_Declarations].[SalesAdjustment],[dbo].[Dim_Declarations].[SalesVat],[dbo].[Dim_Declarations].[PurchaseTotal],[dbo].[Dim_Declarations].[PurchaseAdjustment],[dbo].[Dim_Declarations].[PurchaseVat],[dbo].[Dim_Declarations].[RecivableTax],[dbo].[Dim_Declarations].[DebtValue],[dbo].[Dim_Declarations].[TotalTaxValue],[dbo].[Dim_Declarations].[ApplicantName],[dbo].[Dim_Declarations].[NationalPassNum],[dbo].[Dim_Declarations].[IsSigned],[dbo].[Dim_Declarations].[Representitive],[dbo].[Dim_Declarations].[AuthorizationNumber],[dbo].[Dim_Declarations].[CreationDate],[dbo].[Dim_Declarations].[UpdatedDate],[dbo].[Dim_Declarations].[IsDeleted],[dbo].[Dim_Declarations].[IsSend],[dbo].[Dim_Declarations].[SendDate],[dbo].[Dim_Declarations].[IsPaid],[dbo].[Dim_Declarations].[IsReplicated],[dbo].[Dim_Declarations].[PaymentDate],[dbo].[Dim_Declarations].[PaymentMethod],[dbo].[Dim_Declarations].[PersonalizeTypeID],[dbo].[Dim_Declarations].[ReconciliationType],[dbo].[Dim_Declarations].[AcceptanceDate],[dbo].[Dim_Declarations].[RejectionDate],[dbo].[Dim_Declarations].[RecoPaymentDate],[dbo].[Dim_Declarations].[IsPaidTable],[dbo].[Dim_Declarations].[ReconciliationValue],[dbo].[Dim_Declarations].[Artificial_Key],[dbo].[Dim_Declarations].[FK_TaxPeriod_ID],[dbo].[Dim_Declarations].[Fk_Send_Date_ID],[dbo].[Dim_Declarations].[Dec_ID_S],[dbo].[Dim_Declarations].[Submission_Delay],[dbo].[Dim_Declarations].[FK_SSEND_DDATE],[dbo].[Dim_Declarations].[Developed_By],[dbo].[Dim_Declarations].[Namozag_Name] FROM [dbo].[Dim_Declarations]",
+                "where ",
+                "TaxPeriod < 201901"
+              ],
+              "dataSource": "DWH_TAX"
+            },
+            "annotations": [
+              {
+                "name": "QueryEditorSerialization",
+                "value": [
+                  "<?xml version=\"1.0\" encoding=\"UTF-16\"?><Gemini xmlns=\"QueryEditorSerialization\"><AnnotationContent><![CDATA[<RSQueryCommandText>SELECT [dbo].[Dim_Declarations].[ID],[dbo].[Dim_Declarations].[DeclarationTypeID],[dbo].[Dim_Declarations].[FK_VAT_Type_ID],[dbo].[Dim_Declarations].[DocumentNum],[dbo].[Dim_Declarations].[LinkCodeID],[dbo].[Dim_Declarations].[TaxpayerID],[dbo].[Dim_Declarations].[UniqueTaxID],[dbo].[Dim_Declarations].[TaxPeriod],[dbo].[Dim_Declarations].[TableTaxTotal],[dbo].[Dim_Declarations].[TableTaxAdjustment],[dbo].[Dim_Declarations].[TableTaxVat],[dbo].[Dim_Declarations].[SalesTotal],[dbo].[Dim_Declarations].[SalesAdjustment],[dbo].[Dim_Declarations].[SalesVat],[dbo].[Dim_Declarations].[PurchaseTotal],[dbo].[Dim_Declarations].[PurchaseAdjustment],[dbo].[Dim_Declarations].[PurchaseVat],[dbo].[Dim_Declarations].[RecivableTax],[dbo].[Dim_Declarations].[DebtValue],[dbo].[Dim_Declarations].[TotalTaxValue],[dbo].[Dim_Declarations].[ApplicantName],[dbo].[Dim_Declarations].[NationalPassNum],[dbo].[Dim_Declarations].[IsSigned],[dbo].[Dim_Declarations].[Representitive],[dbo].[Dim_Declarations].[AuthorizationNumber],[dbo].[Dim_Declarations].[CreationDate],[dbo].[Dim_Declarations].[UpdatedDate],[dbo].[Dim_Declarations].[IsDeleted],[dbo].[Dim_Declarations].[IsSend],[dbo].[Dim_Declarations].[SendDate],[dbo].[Dim_Declarations].[IsPaid],[dbo].[Dim_Declarations].[IsReplicated],[dbo].[Dim_Declarations].[PaymentDate],[dbo].[Dim_Declarations].[PaymentMethod],[dbo].[Dim_Declarations].[PersonalizeTypeID],[dbo].[Dim_Declarations].[ReconciliationType],[dbo].[Dim_Declarations].[AcceptanceDate],[dbo].[Dim_Declarations].[RejectionDate],[dbo].[Dim_Declarations].[RecoPaymentDate],[dbo].[Dim_Declarations].[IsPaidTable],[dbo].[Dim_Declarations].[ReconciliationValue],[dbo].[Dim_Declarations].[Artificial_Key],[dbo].[Dim_Declarations].[FK_TaxPeriod_ID],[dbo].[Dim_Declarations].[Fk_Send_Date_ID],[dbo].[Dim_Declarations].[Dec_ID_S],[dbo].[Dim_Declarations].[Submission_Delay],[dbo].[Dim_Declarations].[FK_SSEND_DDATE],[dbo].[Dim_Declarations].[Developed_By],[dbo].[Dim_Declarations].[Namozag_Name] FROM [dbo].[Dim_Declarations]",
+                  "where ",
+                  "TaxPeriod < 201901</RSQueryCommandText><RSQueryCommandType>Text</RSQueryCommandType><RSQueryDesignState></RSQueryDesignState>]]></AnnotationContent></Gemini>"
                 ]
               }
             ]
@@ -8757,6 +7831,26 @@
                 ]
               }
             ]
+          },
+          {
+            "name": "D_Dim_Invoices_Real_2018_and_Before",
+            "mode": "import",
+            "source": {
+              "query": [
+                "SELECT [dbo].[Dim_Invoices].[Invoice_Id],[dbo].[Dim_Invoices].[Company_Taxpayer_Id],[dbo].[Dim_Invoices].[Company_Unique_Tax_Id],[dbo].[Dim_Invoices].[Invoice_Number],[dbo].[Dim_Invoices].[Invoice_Date],[dbo].[Dim_Invoices].[Invoice_Total_Net],[dbo].[Dim_Invoices].[Invoice_Total_Tax],[dbo].[Dim_Invoices].[Invoice_Total_Money],[dbo].[Dim_Invoices].[Customer_Name],[dbo].[Dim_Invoices].[Customer_Unique_Tax_Id],[dbo].[Dim_Invoices].[Customer_National_Id],[dbo].[Dim_Invoices].[Customer_Mobile],[dbo].[Dim_Invoices].[Customer_Address],[dbo].[Dim_Invoices].[FK_Inv_Type_ID],[dbo].[Dim_Invoices].[Product_Name],[dbo].[Dim_Invoices].[Product_Code],[dbo].[Dim_Invoices].[Fk_ProductType_Id],[dbo].[Dim_Invoices].[Product_Unit],[dbo].[Dim_Invoices].[Product_Unit_Price],[dbo].[Dim_Invoices].[Product_Tax_Value],[dbo].[Dim_Invoices].[Product_Quantity],[dbo].[Dim_Invoices].[Product_Total_Net],[dbo].[Dim_Invoices].[Product_Total_Tax_Value],[dbo].[Dim_Invoices].[Product_Total_Money],[dbo].[Dim_Invoices].[FK_Sub_inv_type],[dbo].[Dim_Invoices].[Fk_TaxType_Id],[dbo].[Dim_Invoices].[Tax],[dbo].[Dim_Invoices].[ItemType],[dbo].[Dim_Invoices].[SectionType],[dbo].[Dim_Invoices].[Discount],[dbo].[Dim_Invoices].[CreationDate],[dbo].[Dim_Invoices].[UpdatedDate],[dbo].[Dim_Invoices].[IsDeleted],[dbo].[Dim_Invoices].[FK_Dec_ID_S],[dbo].[Dim_Invoices].[Invoice_ID_S],[dbo].[Dim_Invoices].[FK_Artificial_Key],[dbo].[Dim_Invoices].[FK_TaxPeriod_ID],[dbo].[Dim_Invoices].[TaxPeriod],[dbo].[Dim_Invoices].[cc__Customer_Artificial_Key],[dbo].[Dim_Invoices].[Invoice_Detail_ID],[Dim_Invoices].[Developed_By]  FROM [dbo].[Dim_Invoices]",
+                "where [dbo].[Dim_Invoices].[TaxPeriod] < 201901"
+              ],
+              "dataSource": "DWH_TAX"
+            },
+            "annotations": [
+              {
+                "name": "QueryEditorSerialization",
+                "value": [
+                  "<?xml version=\"1.0\" encoding=\"UTF-16\"?><Gemini xmlns=\"QueryEditorSerialization\"><AnnotationContent><![CDATA[<RSQueryCommandText>SELECT [dbo].[Dim_Invoices].[Invoice_Id],[dbo].[Dim_Invoices].[Company_Taxpayer_Id],[dbo].[Dim_Invoices].[Company_Unique_Tax_Id],[dbo].[Dim_Invoices].[Invoice_Number],[dbo].[Dim_Invoices].[Invoice_Date],[dbo].[Dim_Invoices].[Invoice_Total_Net],[dbo].[Dim_Invoices].[Invoice_Total_Tax],[dbo].[Dim_Invoices].[Invoice_Total_Money],[dbo].[Dim_Invoices].[Customer_Name],[dbo].[Dim_Invoices].[Customer_Unique_Tax_Id],[dbo].[Dim_Invoices].[Customer_National_Id],[dbo].[Dim_Invoices].[Customer_Mobile],[dbo].[Dim_Invoices].[Customer_Address],[dbo].[Dim_Invoices].[FK_Inv_Type_ID],[dbo].[Dim_Invoices].[Product_Name],[dbo].[Dim_Invoices].[Product_Code],[dbo].[Dim_Invoices].[Fk_ProductType_Id],[dbo].[Dim_Invoices].[Product_Unit],[dbo].[Dim_Invoices].[Product_Unit_Price],[dbo].[Dim_Invoices].[Product_Tax_Value],[dbo].[Dim_Invoices].[Product_Quantity],[dbo].[Dim_Invoices].[Product_Total_Net],[dbo].[Dim_Invoices].[Product_Total_Tax_Value],[dbo].[Dim_Invoices].[Product_Total_Money],[dbo].[Dim_Invoices].[FK_Sub_inv_type],[dbo].[Dim_Invoices].[Fk_TaxType_Id],[dbo].[Dim_Invoices].[Tax],[dbo].[Dim_Invoices].[ItemType],[dbo].[Dim_Invoices].[SectionType],[dbo].[Dim_Invoices].[Discount],[dbo].[Dim_Invoices].[CreationDate],[dbo].[Dim_Invoices].[UpdatedDate],[dbo].[Dim_Invoices].[IsDeleted],[dbo].[Dim_Invoices].[FK_Dec_ID_S],[dbo].[Dim_Invoices].[Invoice_ID_S],[dbo].[Dim_Invoices].[FK_Artificial_Key],[dbo].[Dim_Invoices].[FK_TaxPeriod_ID],[dbo].[Dim_Invoices].[TaxPeriod],[dbo].[Dim_Invoices].[cc__Customer_Artificial_Key],[dbo].[Dim_Invoices].[Invoice_Detail_ID],[Dim_Invoices].[Developed_By]  FROM [dbo].[Dim_Invoices]",
+                  "where [dbo].[Dim_Invoices].[TaxPeriod] < 201901</RSQueryCommandText><RSQueryCommandType>Text</RSQueryCommandType><RSQueryDesignState></RSQueryDesignState>]]></AnnotationContent></Gemini>"
+                ]
+              }
+            ]
           }
         ],
         "measures": [
@@ -11901,6 +10995,26 @@
                 "value": [
                   "<?xml version=\"1.0\" encoding=\"UTF-16\"?><Gemini xmlns=\"QueryEditorSerialization\"><AnnotationContent><![CDATA[<RSQueryCommandText>SELECT [dbo].[Dim_Invoices].[Invoice_Id],[dbo].[Dim_Invoices].[Company_Taxpayer_Id],[dbo].[Dim_Invoices].[Company_Unique_Tax_Id],[dbo].[Dim_Invoices].[Invoice_Number],[dbo].[Dim_Invoices].[Invoice_Date],[dbo].[Dim_Invoices].[Invoice_Total_Net],[dbo].[Dim_Invoices].[Invoice_Total_Tax],[dbo].[Dim_Invoices].[Invoice_Total_Money],[dbo].[Dim_Invoices].[Customer_Name],[dbo].[Dim_Invoices].[Customer_Unique_Tax_Id],[dbo].[Dim_Invoices].[Customer_National_Id],[dbo].[Dim_Invoices].[Customer_Mobile],[dbo].[Dim_Invoices].[Customer_Address],[dbo].[Dim_Invoices].[FK_Inv_Type_ID],[dbo].[Dim_Invoices].[Product_Name],[dbo].[Dim_Invoices].[Product_Code],[dbo].[Dim_Invoices].[Fk_ProductType_Id],[dbo].[Dim_Invoices].[Product_Unit],[dbo].[Dim_Invoices].[Product_Unit_Price],[dbo].[Dim_Invoices].[Product_Tax_Value],[dbo].[Dim_Invoices].[Product_Quantity],[dbo].[Dim_Invoices].[Product_Total_Net],[dbo].[Dim_Invoices].[Product_Total_Tax_Value],[dbo].[Dim_Invoices].[Product_Total_Money],[dbo].[Dim_Invoices].[FK_Sub_inv_type],[dbo].[Dim_Invoices].[Fk_TaxType_Id],[dbo].[Dim_Invoices].[Tax],[dbo].[Dim_Invoices].[ItemType],[dbo].[Dim_Invoices].[SectionType],[dbo].[Dim_Invoices].[Discount],[dbo].[Dim_Invoices].[CreationDate],[dbo].[Dim_Invoices].[UpdatedDate],[dbo].[Dim_Invoices].[IsDeleted],[dbo].[Dim_Invoices].[FK_Dec_ID_S],[dbo].[Dim_Invoices].[Invoice_ID_S],[dbo].[Dim_Invoices].[FK_Artificial_Key],[dbo].[Dim_Invoices].[FK_TaxPeriod_ID],[dbo].[Dim_Invoices].[TaxPeriod],[dbo].[Dim_Invoices].[Invoice_Detail_ID],[Dim_Invoices].[Developed_By] FROM [dbo].[Dim_Invoices]",
                   "where [dbo].[Dim_Invoices].[TaxPeriod] in (202110,202111,202112)</RSQueryCommandText><RSQueryCommandType>Text</RSQueryCommandType><RSQueryDesignState><DesignerState><UseGenericDesigner>false</UseGenericDesigner><InternalDesignerState><QueryDefinition xmlns=\"http://schemas.microsoft.com/ReportingServices/QueryDefinition/Relational\"><SelectedColumns><ColumnExpression ColumnOwner=\"Dim_Invoices\" ColumnName=\"Invoice_Id\" /><ColumnExpression ColumnOwner=\"Dim_Invoices\" ColumnName=\"Company_Taxpayer_Id\" /><ColumnExpression ColumnOwner=\"Dim_Invoices\" ColumnName=\"Company_Unique_Tax_Id\" /><ColumnExpression ColumnOwner=\"Dim_Invoices\" ColumnName=\"Invoice_Number\" /><ColumnExpression ColumnOwner=\"Dim_Invoices\" ColumnName=\"Invoice_Date\" /><ColumnExpression ColumnOwner=\"Dim_Invoices\" ColumnName=\"Invoice_Total_Net\" /><ColumnExpression ColumnOwner=\"Dim_Invoices\" ColumnName=\"Invoice_Total_Tax\" /><ColumnExpression ColumnOwner=\"Dim_Invoices\" ColumnName=\"Invoice_Total_Money\" /><ColumnExpression ColumnOwner=\"Dim_Invoices\" ColumnName=\"Customer_Name\" /><ColumnExpression ColumnOwner=\"Dim_Invoices\" ColumnName=\"Customer_Unique_Tax_Id\" /><ColumnExpression ColumnOwner=\"Dim_Invoices\" ColumnName=\"Customer_National_Id\" /><ColumnExpression ColumnOwner=\"Dim_Invoices\" ColumnName=\"Customer_Mobile\" /><ColumnExpression ColumnOwner=\"Dim_Invoices\" ColumnName=\"Customer_Address\" /><ColumnExpression ColumnOwner=\"Dim_Invoices\" ColumnName=\"FK_Inv_Type_ID\" /><ColumnExpression ColumnOwner=\"Dim_Invoices\" ColumnName=\"Product_Name\" /><ColumnExpression ColumnOwner=\"Dim_Invoices\" ColumnName=\"Product_Code\" /><ColumnExpression ColumnOwner=\"Dim_Invoices\" ColumnName=\"Fk_ProductType_Id\" /><ColumnExpression ColumnOwner=\"Dim_Invoices\" ColumnName=\"Product_Unit\" /><ColumnExpression ColumnOwner=\"Dim_Invoices\" ColumnName=\"Product_Unit_Price\" /><ColumnExpression ColumnOwner=\"Dim_Invoices\" ColumnName=\"Product_Tax_Value\" /><ColumnExpression ColumnOwner=\"Dim_Invoices\" ColumnName=\"Product_Quantity\" /><ColumnExpression ColumnOwner=\"Dim_Invoices\" ColumnName=\"Product_Total_Net\" /><ColumnExpression ColumnOwner=\"Dim_Invoices\" ColumnName=\"Product_Total_Tax_Value\" /><ColumnExpression ColumnOwner=\"Dim_Invoices\" ColumnName=\"Product_Total_Money\" /><ColumnExpression ColumnOwner=\"Dim_Invoices\" ColumnName=\"FK_Sub_inv_type\" /><ColumnExpression ColumnOwner=\"Dim_Invoices\" ColumnName=\"Fk_TaxType_Id\" /><ColumnExpression ColumnOwner=\"Dim_Invoices\" ColumnName=\"Tax\" /><ColumnExpression ColumnOwner=\"Dim_Invoices\" ColumnName=\"ItemType\" /><ColumnExpression ColumnOwner=\"Dim_Invoices\" ColumnName=\"SectionType\" /><ColumnExpression ColumnOwner=\"Dim_Invoices\" ColumnName=\"Discount\" /><ColumnExpression ColumnOwner=\"Dim_Invoices\" ColumnName=\"CreationDate\" /><ColumnExpression ColumnOwner=\"Dim_Invoices\" ColumnName=\"UpdatedDate\" /><ColumnExpression ColumnOwner=\"Dim_Invoices\" ColumnName=\"IsDeleted\" /><ColumnExpression ColumnOwner=\"Dim_Invoices\" ColumnName=\"FK_Dec_ID_S\" /><ColumnExpression ColumnOwner=\"Dim_Invoices\" ColumnName=\"Invoice_ID_S\" /><ColumnExpression ColumnOwner=\"Dim_Invoices\" ColumnName=\"FK_Artificial_Key\" /><ColumnExpression ColumnOwner=\"Dim_Invoices\" ColumnName=\"FK_TaxPeriod_ID\" /><ColumnExpression ColumnOwner=\"Dim_Invoices\" ColumnName=\"TaxPeriod\" /></SelectedColumns></QueryDefinition></InternalDesignerState></DesignerState></RSQueryDesignState>]]></AnnotationContent></Gemini>"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "D_Dim_Invoices_PORTAL_2018_and_Before",
+            "mode": "import",
+            "source": {
+              "query": [
+                "SELECT [dbo].[Dim_Invoices].[Invoice_Id],[dbo].[Dim_Invoices].[Company_Taxpayer_Id],[dbo].[Dim_Invoices].[Company_Unique_Tax_Id],[dbo].[Dim_Invoices].[Invoice_Number],[dbo].[Dim_Invoices].[Invoice_Date],[dbo].[Dim_Invoices].[Invoice_Total_Net],[dbo].[Dim_Invoices].[Invoice_Total_Tax],[dbo].[Dim_Invoices].[Invoice_Total_Money],[dbo].[Dim_Invoices].[Customer_Name],[dbo].[Dim_Invoices].[Customer_Unique_Tax_Id],[dbo].[Dim_Invoices].[Customer_National_Id],[dbo].[Dim_Invoices].[Customer_Mobile],[dbo].[Dim_Invoices].[Customer_Address],[dbo].[Dim_Invoices].[FK_Inv_Type_ID],[dbo].[Dim_Invoices].[Product_Name],[dbo].[Dim_Invoices].[Product_Code],[dbo].[Dim_Invoices].[Fk_ProductType_Id],[dbo].[Dim_Invoices].[Product_Unit],[dbo].[Dim_Invoices].[Product_Unit_Price],[dbo].[Dim_Invoices].[Product_Tax_Value],[dbo].[Dim_Invoices].[Product_Quantity],[dbo].[Dim_Invoices].[Product_Total_Net],[dbo].[Dim_Invoices].[Product_Total_Tax_Value],[dbo].[Dim_Invoices].[Product_Total_Money],[dbo].[Dim_Invoices].[FK_Sub_inv_type],[dbo].[Dim_Invoices].[Fk_TaxType_Id],[dbo].[Dim_Invoices].[Tax],[dbo].[Dim_Invoices].[ItemType],[dbo].[Dim_Invoices].[SectionType],[dbo].[Dim_Invoices].[Discount],[dbo].[Dim_Invoices].[CreationDate],[dbo].[Dim_Invoices].[UpdatedDate],[dbo].[Dim_Invoices].[IsDeleted],[dbo].[Dim_Invoices].[FK_Dec_ID_S],[dbo].[Dim_Invoices].[Invoice_ID_S],[dbo].[Dim_Invoices].[FK_Artificial_Key],[dbo].[Dim_Invoices].[FK_TaxPeriod_ID],[dbo].[Dim_Invoices].[TaxPeriod],[dbo].[Dim_Invoices].[Invoice_Detail_ID],[Dim_Invoices].[Developed_By] FROM [dbo].[Dim_Invoices]",
+                "where [dbo].[Dim_Invoices].[TaxPeriod] < 201901"
+              ],
+              "dataSource": "DWH_TAX"
+            },
+            "annotations": [
+              {
+                "name": "QueryEditorSerialization",
+                "value": [
+                  "<?xml version=\"1.0\" encoding=\"UTF-16\"?><Gemini xmlns=\"QueryEditorSerialization\"><AnnotationContent><![CDATA[<RSQueryCommandText>SELECT [dbo].[Dim_Invoices].[Invoice_Id],[dbo].[Dim_Invoices].[Company_Taxpayer_Id],[dbo].[Dim_Invoices].[Company_Unique_Tax_Id],[dbo].[Dim_Invoices].[Invoice_Number],[dbo].[Dim_Invoices].[Invoice_Date],[dbo].[Dim_Invoices].[Invoice_Total_Net],[dbo].[Dim_Invoices].[Invoice_Total_Tax],[dbo].[Dim_Invoices].[Invoice_Total_Money],[dbo].[Dim_Invoices].[Customer_Name],[dbo].[Dim_Invoices].[Customer_Unique_Tax_Id],[dbo].[Dim_Invoices].[Customer_National_Id],[dbo].[Dim_Invoices].[Customer_Mobile],[dbo].[Dim_Invoices].[Customer_Address],[dbo].[Dim_Invoices].[FK_Inv_Type_ID],[dbo].[Dim_Invoices].[Product_Name],[dbo].[Dim_Invoices].[Product_Code],[dbo].[Dim_Invoices].[Fk_ProductType_Id],[dbo].[Dim_Invoices].[Product_Unit],[dbo].[Dim_Invoices].[Product_Unit_Price],[dbo].[Dim_Invoices].[Product_Tax_Value],[dbo].[Dim_Invoices].[Product_Quantity],[dbo].[Dim_Invoices].[Product_Total_Net],[dbo].[Dim_Invoices].[Product_Total_Tax_Value],[dbo].[Dim_Invoices].[Product_Total_Money],[dbo].[Dim_Invoices].[FK_Sub_inv_type],[dbo].[Dim_Invoices].[Fk_TaxType_Id],[dbo].[Dim_Invoices].[Tax],[dbo].[Dim_Invoices].[ItemType],[dbo].[Dim_Invoices].[SectionType],[dbo].[Dim_Invoices].[Discount],[dbo].[Dim_Invoices].[CreationDate],[dbo].[Dim_Invoices].[UpdatedDate],[dbo].[Dim_Invoices].[IsDeleted],[dbo].[Dim_Invoices].[FK_Dec_ID_S],[dbo].[Dim_Invoices].[Invoice_ID_S],[dbo].[Dim_Invoices].[FK_Artificial_Key],[dbo].[Dim_Invoices].[FK_TaxPeriod_ID],[dbo].[Dim_Invoices].[TaxPeriod],[dbo].[Dim_Invoices].[Invoice_Detail_ID],[Dim_Invoices].[Developed_By] FROM [dbo].[Dim_Invoices]",
+                  "where [dbo].[Dim_Invoices].[TaxPeriod] < 201901</RSQueryCommandText><RSQueryCommandType>Text</RSQueryCommandType><RSQueryDesignState><DesignerState><UseGenericDesigner>false</UseGenericDesigner><InternalDesignerState><QueryDefinition xmlns=\"http://schemas.microsoft.com/ReportingServices/QueryDefinition/Relational\"><SelectedColumns><ColumnExpression ColumnOwner=\"Dim_Invoices\" ColumnName=\"Invoice_Id\" /><ColumnExpression ColumnOwner=\"Dim_Invoices\" ColumnName=\"Company_Taxpayer_Id\" /><ColumnExpression ColumnOwner=\"Dim_Invoices\" ColumnName=\"Company_Unique_Tax_Id\" /><ColumnExpression ColumnOwner=\"Dim_Invoices\" ColumnName=\"Invoice_Number\" /><ColumnExpression ColumnOwner=\"Dim_Invoices\" ColumnName=\"Invoice_Date\" /><ColumnExpression ColumnOwner=\"Dim_Invoices\" ColumnName=\"Invoice_Total_Net\" /><ColumnExpression ColumnOwner=\"Dim_Invoices\" ColumnName=\"Invoice_Total_Tax\" /><ColumnExpression ColumnOwner=\"Dim_Invoices\" ColumnName=\"Invoice_Total_Money\" /><ColumnExpression ColumnOwner=\"Dim_Invoices\" ColumnName=\"Customer_Name\" /><ColumnExpression ColumnOwner=\"Dim_Invoices\" ColumnName=\"Customer_Unique_Tax_Id\" /><ColumnExpression ColumnOwner=\"Dim_Invoices\" ColumnName=\"Customer_National_Id\" /><ColumnExpression ColumnOwner=\"Dim_Invoices\" ColumnName=\"Customer_Mobile\" /><ColumnExpression ColumnOwner=\"Dim_Invoices\" ColumnName=\"Customer_Address\" /><ColumnExpression ColumnOwner=\"Dim_Invoices\" ColumnName=\"FK_Inv_Type_ID\" /><ColumnExpression ColumnOwner=\"Dim_Invoices\" ColumnName=\"Product_Name\" /><ColumnExpression ColumnOwner=\"Dim_Invoices\" ColumnName=\"Product_Code\" /><ColumnExpression ColumnOwner=\"Dim_Invoices\" ColumnName=\"Fk_ProductType_Id\" /><ColumnExpression ColumnOwner=\"Dim_Invoices\" ColumnName=\"Product_Unit\" /><ColumnExpression ColumnOwner=\"Dim_Invoices\" ColumnName=\"Product_Unit_Price\" /><ColumnExpression ColumnOwner=\"Dim_Invoices\" ColumnName=\"Product_Tax_Value\" /><ColumnExpression ColumnOwner=\"Dim_Invoices\" ColumnName=\"Product_Quantity\" /><ColumnExpression ColumnOwner=\"Dim_Invoices\" ColumnName=\"Product_Total_Net\" /><ColumnExpression ColumnOwner=\"Dim_Invoices\" ColumnName=\"Product_Total_Tax_Value\" /><ColumnExpression ColumnOwner=\"Dim_Invoices\" ColumnName=\"Product_Total_Money\" /><ColumnExpression ColumnOwner=\"Dim_Invoices\" ColumnName=\"FK_Sub_inv_type\" /><ColumnExpression ColumnOwner=\"Dim_Invoices\" ColumnName=\"Fk_TaxType_Id\" /><ColumnExpression ColumnOwner=\"Dim_Invoices\" ColumnName=\"Tax\" /><ColumnExpression ColumnOwner=\"Dim_Invoices\" ColumnName=\"ItemType\" /><ColumnExpression ColumnOwner=\"Dim_Invoices\" ColumnName=\"SectionType\" /><ColumnExpression ColumnOwner=\"Dim_Invoices\" ColumnName=\"Discount\" /><ColumnExpression ColumnOwner=\"Dim_Invoices\" ColumnName=\"CreationDate\" /><ColumnExpression ColumnOwner=\"Dim_Invoices\" ColumnName=\"UpdatedDate\" /><ColumnExpression ColumnOwner=\"Dim_Invoices\" ColumnName=\"IsDeleted\" /><ColumnExpression ColumnOwner=\"Dim_Invoices\" ColumnName=\"FK_Dec_ID_S\" /><ColumnExpression ColumnOwner=\"Dim_Invoices\" ColumnName=\"Invoice_ID_S\" /><ColumnExpression ColumnOwner=\"Dim_Invoices\" ColumnName=\"FK_Artificial_Key\" /><ColumnExpression ColumnOwner=\"Dim_Invoices\" ColumnName=\"FK_TaxPeriod_ID\" /><ColumnExpression ColumnOwner=\"Dim_Invoices\" ColumnName=\"TaxPeriod\" /></SelectedColumns></QueryDefinition></InternalDesignerState></DesignerState></RSQueryDesignState>]]></AnnotationContent></Gemini>"
                 ]
               }
             ]
@@ -15373,61 +14487,61 @@
             "expression": "CALCULATE(SUM(D_Dim_Invoices_5asm_w_Ta7seel[TransactionNet]))"
           },
           {
-            "name": "ETA_NET_SUM_1",
+            "name": "ETA_NMZ41_NET_SUM_1",
             "expression": "CALCULATE(SUM(D_Dim_Invoices_5asm_w_Ta7seel[TransactionNet]),D_Dim_Invoices_5asm_w_Ta7seel[OpponentTypeId]=\"1\" )",
             "isHidden": true
           },
           {
-            "name": "ETA_NET_SUM_2",
+            "name": "ETA_NMZ41_NET_SUM_2",
             "expression": "CALCULATE(SUM(D_Dim_Invoices_5asm_w_Ta7seel[TransactionNet]),D_Dim_Invoices_5asm_w_Ta7seel[OpponentTypeId]=\"5\",D_Dim_Invoices_5asm_w_Ta7seel[OpponentTypeId]=\"6\" )",
             "isHidden": true
           },
           {
-            "name": "ETA_NET_SUM_3",
+            "name": "ETA_NMZ41_NET_SUM_3",
             "expression": "CALCULATE(SUM(D_Dim_Invoices_5asm_w_Ta7seel[TransactionNet]),D_Dim_Invoices_5asm_w_Ta7seel[OpponentTypeId]=\"4\",D_Dim_Invoices_5asm_w_Ta7seel[OpponentTypeId]=\"3\",D_Dim_Invoices_5asm_w_Ta7seel[OpponentTypeId]=\"2\" )",
             "isHidden": true
           },
           {
-            "name": "ETA_TAX_SUM_1",
+            "name": "ETA_NMZ41_TAX_SUM_1",
             "expression": "CALCULATE(SUM(D_Dim_Invoices_5asm_w_Ta7seel[CollectedMoney]),D_Dim_Invoices_5asm_w_Ta7seel[OpponentTypeId]=\"1\" )",
             "isHidden": true
           },
           {
-            "name": "ETA_TAX_SUM_2",
+            "name": "ETA_NMZ41_TAX_SUM_2",
             "expression": "CALCULATE(SUM(D_Dim_Invoices_5asm_w_Ta7seel[CollectedMoney]),D_Dim_Invoices_5asm_w_Ta7seel[OpponentTypeId]=\"5\",D_Dim_Invoices_5asm_w_Ta7seel[OpponentTypeId]=\"6\" )",
             "isHidden": true
           },
           {
-            "name": "ETA_TAX_SUM_3",
+            "name": "ETA_NMZ41_TAX_SUM_3",
             "expression": "CALCULATE(SUM(D_Dim_Invoices_5asm_w_Ta7seel[CollectedMoney]),D_Dim_Invoices_5asm_w_Ta7seel[OpponentTypeId]=\"4\",D_Dim_Invoices_5asm_w_Ta7seel[OpponentTypeId]=\"3\",D_Dim_Invoices_5asm_w_Ta7seel[OpponentTypeId]=\"2\" )",
             "isHidden": true
           },
           {
-            "name": "ETA_TOTAL_Value_SUM_1",
+            "name": "ETA_NMZ41_TOTAL_Value_SUM_1",
             "expression": "CALCULATE(SUM(D_Dim_Invoices_5asm_w_Ta7seel[TransactionTotalValue]),D_Dim_Invoices_5asm_w_Ta7seel[OpponentTypeId]=\"1\" )",
             "isHidden": true
           },
           {
-            "name": "ETA_TOTAL_Value_SUM_2",
+            "name": "ETA_NMZ41_TOTAL_Value_SUM_2",
             "expression": "CALCULATE(SUM(D_Dim_Invoices_5asm_w_Ta7seel[TransactionTotalValue]),D_Dim_Invoices_5asm_w_Ta7seel[OpponentTypeId]=\"5\",D_Dim_Invoices_5asm_w_Ta7seel[OpponentTypeId]=\"6\" )",
             "isHidden": true
           },
           {
-            "name": "ETA_TOTAL_Value_SUM_3",
+            "name": "ETA_NMZ41_TOTAL_Value_SUM_3",
             "expression": "CALCULATE(SUM(D_Dim_Invoices_5asm_w_Ta7seel[CollectedMoney]),D_Dim_Invoices_5asm_w_Ta7seel[OpponentTypeId]=\"4\",D_Dim_Invoices_5asm_w_Ta7seel[OpponentTypeId]=\"3\",D_Dim_Invoices_5asm_w_Ta7seel[OpponentTypeId]=\"2\" )",
             "isHidden": true
           },
           {
-            "name": "ETA_NET_SUM",
-            "expression": "[ETA_NET_SUM_1]+[ETA_NET_SUM_2]-[ETA_NET_SUM_3]"
+            "name": "ETA_NMZ41_NET_SUM",
+            "expression": "[ETA_NMZ41_NET_SUM_1]+[ETA_NMZ41_NET_SUM_2]-[ETA_NMZ41_NET_SUM_3]"
           },
           {
-            "name": "ETA_TAX_SUM",
-            "expression": "[ETA_TAX_SUM_1]+[ETA_TAX_SUM_2]-[ETA_TAX_SUM_3]"
+            "name": "ETA_NMZ41_TAX_SUM",
+            "expression": "[ETA_NMZ41_TAX_SUM_1]+[ETA_NMZ41_TAX_SUM_2]-[ETA_NMZ41_TAX_SUM_3]"
           },
           {
-            "name": "ETA_TOTAL_Value_SUM",
-            "expression": "[ETA_TOTAL_Value_SUM_1]+[ETA_TOTAL_Value_SUM_2]-[ETA_TOTAL_Value_SUM_3]"
+            "name": "ETA_NMZ41_TOTAL_Value_SUM",
+            "expression": "[ETA_NMZ41_TOTAL_Value_SUM_1]+[ETA_NMZ41_TOTAL_Value_SUM_2]-[ETA_NMZ41_TOTAL_Value_SUM_3]"
           }
         ],
         "annotations": [
@@ -16455,7 +15569,678 @@
         ]
       },
       {
-        "name": "D_ETA_nmz_41_Full_Withholding_Transactions",
+        "name": "B_Dim_TaxPayers_Universe_WithHoldings",
+        "columns": [
+          {
+            "type": "calculatedTableColumn",
+            "name": "Unique_Tax_Id",
+            "dataType": "string",
+            "isNameInferred": true,
+            "isDataTypeInferred": true,
+            "sourceColumn": "B_Dim_TaxPayers_Universe_Master[Unique_Tax_Id]"
+          },
+          {
+            "type": "calculatedTableColumn",
+            "name": "Taxpayer_Name",
+            "dataType": "string",
+            "isNameInferred": true,
+            "isDataTypeInferred": true,
+            "sourceColumn": "B_Dim_TaxPayers_Universe_Master[Taxpayer_Name]"
+          },
+          {
+            "type": "calculatedTableColumn",
+            "name": "IS_Registered",
+            "dataType": "boolean",
+            "isNameInferred": true,
+            "isDataTypeInferred": true,
+            "sourceColumn": "B_Dim_TaxPayers_Universe_Master[IS_Registered]",
+            "formatString": "\"TRUE\";\"TRUE\";\"FALSE\""
+          },
+          {
+            "type": "calculatedTableColumn",
+            "name": "IS_Not_Registered",
+            "dataType": "boolean",
+            "isNameInferred": true,
+            "isDataTypeInferred": true,
+            "sourceColumn": "B_Dim_TaxPayers_Universe_Master[IS_Not_Registered]",
+            "formatString": "\"TRUE\";\"TRUE\";\"FALSE\""
+          },
+          {
+            "type": "calculatedTableColumn",
+            "name": "IS_Dummy",
+            "dataType": "boolean",
+            "isNameInferred": true,
+            "isDataTypeInferred": true,
+            "sourceColumn": "B_Dim_TaxPayers_Universe_Master[IS_Dummy]",
+            "formatString": "\"TRUE\";\"TRUE\";\"FALSE\""
+          },
+          {
+            "type": "calculatedTableColumn",
+            "name": "Region_Name",
+            "dataType": "string",
+            "isNameInferred": true,
+            "isDataTypeInferred": true,
+            "sourceColumn": "B_Dim_TaxPayers_Universe_Master[Region_Name]"
+          },
+          {
+            "type": "calculatedTableColumn",
+            "name": "DistrictVat_Name",
+            "dataType": "string",
+            "isNameInferred": true,
+            "isDataTypeInferred": true,
+            "sourceColumn": "B_Dim_TaxPayers_Universe_Master[DistrictVat_Name]"
+          },
+          {
+            "type": "calculatedTableColumn",
+            "name": "DistrictVat_Code",
+            "dataType": "string",
+            "isNameInferred": true,
+            "isDataTypeInferred": true,
+            "sourceColumn": "B_Dim_TaxPayers_Universe_Master[DistrictVat_Code]"
+          },
+          {
+            "type": "calculatedTableColumn",
+            "name": "Region_Code",
+            "dataType": "string",
+            "isNameInferred": true,
+            "isDataTypeInferred": true,
+            "sourceColumn": "B_Dim_TaxPayers_Universe_Master[Region_Code]"
+          },
+          {
+            "type": "calculatedTableColumn",
+            "name": "IS_Income_Registered",
+            "dataType": "boolean",
+            "isNameInferred": true,
+            "isDataTypeInferred": true,
+            "sourceColumn": "B_Dim_TaxPayers_Universe_Master[IS_Income_Registered]",
+            "formatString": "\"TRUE\";\"TRUE\";\"FALSE\""
+          },
+          {
+            "type": "calculatedTableColumn",
+            "name": "IS_Vat_Registred",
+            "dataType": "boolean",
+            "isNameInferred": true,
+            "isDataTypeInferred": true,
+            "sourceColumn": "B_Dim_TaxPayers_Universe_Master[IS_Vat_Registred]",
+            "formatString": "\"TRUE\";\"TRUE\";\"FALSE\""
+          },
+          {
+            "type": "calculatedTableColumn",
+            "name": "District_Name",
+            "dataType": "string",
+            "isNameInferred": true,
+            "isDataTypeInferred": true,
+            "sourceColumn": "B_Dim_TaxPayers_Universe_Master[District_Name]"
+          },
+          {
+            "type": "calculatedTableColumn",
+            "name": "District_Code",
+            "dataType": "string",
+            "isNameInferred": true,
+            "isDataTypeInferred": true,
+            "sourceColumn": "B_Dim_TaxPayers_Universe_Master[District_Code]"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "CalculatedTable 1",
+            "source": {
+              "type": "calculated",
+              "expression": "CALCULATETABLE(B_Dim_TaxPayers_Universe_Master)"
+            }
+          }
+        ]
+      },
+      {
+        "name": "D_ETA_Namozag_46",
+        "columns": [
+          {
+            "name": "TransactionData_Id",
+            "dataType": "string",
+            "sourceColumn": "TransactionData_Id",
+            "sourceProviderType": "Guid"
+          },
+          {
+            "name": "kst_pageno",
+            "dataType": "string",
+            "sourceColumn": "kst_pageno",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "Closed_Date",
+            "dataType": "dateTime",
+            "sourceColumn": "Closed_Date",
+            "formatString": "General Date",
+            "sourceProviderType": "DBTimeStamp"
+          },
+          {
+            "name": "Closed",
+            "dataType": "boolean",
+            "sourceColumn": "Closed",
+            "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+            "sourceProviderType": "Boolean"
+          },
+          {
+            "name": "kst_year",
+            "dataType": "string",
+            "sourceColumn": "kst_year",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "bat_prd",
+            "dataType": "string",
+            "sourceColumn": "bat_prd",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "kst_jul",
+            "dataType": "string",
+            "sourceColumn": "kst_jul",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "kst_serl",
+            "dataType": "string",
+            "sourceColumn": "kst_serl",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "gha_num",
+            "dataType": "string",
+            "sourceColumn": "gha_num",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "gha_name",
+            "dataType": "string",
+            "sourceColumn": "gha_name",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "kst_docnum1",
+            "dataType": "int64",
+            "sourceColumn": "kst_docnum1",
+            "sourceProviderType": "Integer"
+          },
+          {
+            "name": "kst_ghatype",
+            "dataType": "string",
+            "sourceColumn": "kst_ghatype",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "kst_dealtype",
+            "dataType": "string",
+            "sourceColumn": "kst_dealtype",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "kst_ratflag",
+            "dataType": "int64",
+            "sourceColumn": "kst_ratflag",
+            "sourceProviderType": "Integer"
+          },
+          {
+            "name": "kst_flag",
+            "dataType": "int64",
+            "sourceColumn": "kst_flag",
+            "sourceProviderType": "Integer"
+          },
+          {
+            "name": "kst_sysdate",
+            "dataType": "int64",
+            "sourceColumn": "kst_sysdate",
+            "sourceProviderType": "Integer"
+          },
+          {
+            "name": "kst_ruid",
+            "dataType": "int64",
+            "sourceColumn": "kst_ruid",
+            "sourceProviderType": "Integer"
+          },
+          {
+            "name": "kst_rsysdate",
+            "dataType": "int64",
+            "sourceColumn": "kst_rsysdate",
+            "sourceProviderType": "Integer"
+          },
+          {
+            "name": "kst_upuid",
+            "dataType": "int64",
+            "sourceColumn": "kst_upuid",
+            "sourceProviderType": "Integer"
+          },
+          {
+            "name": "kst_upsysdate",
+            "dataType": "int64",
+            "sourceColumn": "kst_upsysdate",
+            "sourceProviderType": "Integer"
+          },
+          {
+            "name": "flag",
+            "dataType": "int64",
+            "sourceColumn": "flag",
+            "sourceProviderType": "Integer"
+          },
+          {
+            "name": "Taxpayer_Id",
+            "dataType": "string",
+            "sourceColumn": "Taxpayer_Id",
+            "sourceProviderType": "Guid"
+          },
+          {
+            "name": "Taxpayer_Name",
+            "dataType": "string",
+            "sourceColumn": "Taxpayer_Name",
+            "sourceProviderType": "WChar"
+          },
+          {
+            "name": "kst_taxid",
+            "dataType": "string",
+            "sourceColumn": "kst_taxid",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "kst_file",
+            "dataType": "string",
+            "sourceColumn": "kst_file",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "kst_date",
+            "dataType": "dateTime",
+            "sourceColumn": "kst_date",
+            "formatString": "General Date",
+            "sourceProviderType": "DBTimeStamp"
+          },
+          {
+            "name": "Invoice_Date",
+            "dataType": "dateTime",
+            "sourceColumn": "Invoice_Date",
+            "formatString": "General Date",
+            "sourceProviderType": "DBDate"
+          },
+          {
+            "name": "kst_natcode",
+            "dataType": "string",
+            "sourceColumn": "kst_natcode",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "kst_totval",
+            "dataType": "double",
+            "sourceColumn": "kst_totval",
+            "sourceProviderType": "Numeric"
+          },
+          {
+            "name": "kst_netval",
+            "dataType": "double",
+            "sourceColumn": "kst_netval",
+            "sourceProviderType": "Numeric"
+          },
+          {
+            "name": "kst_taxval",
+            "dataType": "double",
+            "sourceColumn": "kst_taxval",
+            "sourceProviderType": "Numeric"
+          },
+          {
+            "name": "kst_currency",
+            "dataType": "string",
+            "sourceColumn": "kst_currency",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "kst_uid",
+            "dataType": "string",
+            "sourceColumn": "kst_uid",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "National_ID",
+            "dataType": "string",
+            "sourceColumn": "National_ID",
+            "sourceProviderType": "WChar"
+          },
+          {
+            "name": "kst_reg",
+            "dataType": "string",
+            "sourceColumn": "kst_reg",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "kst_acttype",
+            "dataType": "string",
+            "sourceColumn": "kst_acttype",
+            "sourceProviderType": "WChar"
+          },
+          {
+            "name": "bat_branch",
+            "dataType": "string",
+            "sourceColumn": "bat_branch",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "line_Number_Inside_Batch",
+            "dataType": "string",
+            "sourceColumn": "line_Number_Inside_Batch",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "Insertion_Date",
+            "dataType": "dateTime",
+            "sourceColumn": "Insertion_Date",
+            "formatString": "General Date",
+            "sourceProviderType": "DBDate"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "D_ETA_Namozag_46",
+            "dataView": "full",
+            "source": {
+              "query": " SELECT [dbo].[ETA_Namozag_46].* FROM [dbo].[ETA_Namozag_46] ",
+              "dataSource": "DWH_TAX"
+            }
+          }
+        ],
+        "annotations": [
+          {
+            "name": "_TM_ExtProp_QueryDefinition",
+            "value": " SELECT [dbo].[ETA_Namozag_46].* FROM [dbo].[ETA_Namozag_46] "
+          },
+          {
+            "name": "_TM_ExtProp_DbTableName",
+            "value": "ETA_Namozag_46"
+          },
+          {
+            "name": "_TM_ExtProp_DbSchemaName",
+            "value": "dbo"
+          }
+        ]
+      },
+      {
+        "name": "D_ETA_Namozag_47",
+        "columns": [
+          {
+            "name": "TransactionData_Id",
+            "dataType": "string",
+            "sourceColumn": "TransactionData_Id",
+            "sourceProviderType": "Guid"
+          },
+          {
+            "name": "kst_pageno",
+            "dataType": "string",
+            "sourceColumn": "kst_pageno",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "Closed_Date",
+            "dataType": "dateTime",
+            "sourceColumn": "Closed_Date",
+            "formatString": "General Date",
+            "sourceProviderType": "DBTimeStamp"
+          },
+          {
+            "name": "Closed",
+            "dataType": "boolean",
+            "sourceColumn": "Closed",
+            "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+            "sourceProviderType": "Boolean"
+          },
+          {
+            "name": "kst_year",
+            "dataType": "string",
+            "sourceColumn": "kst_year",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "bat_prd",
+            "dataType": "string",
+            "sourceColumn": "bat_prd",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "kst_jul",
+            "dataType": "string",
+            "sourceColumn": "kst_jul",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "kst_serl",
+            "dataType": "string",
+            "sourceColumn": "kst_serl",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "gha_num",
+            "dataType": "string",
+            "sourceColumn": "gha_num",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "gha_name",
+            "dataType": "string",
+            "sourceColumn": "gha_name",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "kst_docnum1",
+            "dataType": "int64",
+            "sourceColumn": "kst_docnum1",
+            "sourceProviderType": "Integer"
+          },
+          {
+            "name": "kst_ghatype",
+            "dataType": "string",
+            "sourceColumn": "kst_ghatype",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "kst_dealtype",
+            "dataType": "string",
+            "sourceColumn": "kst_dealtype",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "kst_ratflag",
+            "dataType": "int64",
+            "sourceColumn": "kst_ratflag",
+            "sourceProviderType": "Integer"
+          },
+          {
+            "name": "kst_flag",
+            "dataType": "int64",
+            "sourceColumn": "kst_flag",
+            "sourceProviderType": "Integer"
+          },
+          {
+            "name": "kst_sysdate",
+            "dataType": "int64",
+            "sourceColumn": "kst_sysdate",
+            "sourceProviderType": "Integer"
+          },
+          {
+            "name": "kst_ruid",
+            "dataType": "int64",
+            "sourceColumn": "kst_ruid",
+            "sourceProviderType": "Integer"
+          },
+          {
+            "name": "kst_rsysdate",
+            "dataType": "int64",
+            "sourceColumn": "kst_rsysdate",
+            "sourceProviderType": "Integer"
+          },
+          {
+            "name": "kst_upuid",
+            "dataType": "int64",
+            "sourceColumn": "kst_upuid",
+            "sourceProviderType": "Integer"
+          },
+          {
+            "name": "kst_upsysdate",
+            "dataType": "int64",
+            "sourceColumn": "kst_upsysdate",
+            "sourceProviderType": "Integer"
+          },
+          {
+            "name": "flag",
+            "dataType": "int64",
+            "sourceColumn": "flag",
+            "sourceProviderType": "Integer"
+          },
+          {
+            "name": "Taxpayer_Id",
+            "dataType": "string",
+            "sourceColumn": "Taxpayer_Id",
+            "sourceProviderType": "Guid"
+          },
+          {
+            "name": "TaxPayer_Name",
+            "dataType": "string",
+            "sourceColumn": "TaxPayer_Name",
+            "sourceProviderType": "WChar"
+          },
+          {
+            "name": "kst_taxid",
+            "dataType": "string",
+            "sourceColumn": "kst_taxid",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "kst_file",
+            "dataType": "string",
+            "sourceColumn": "kst_file",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "DistCode",
+            "dataType": "string",
+            "sourceColumn": "DistCode",
+            "sourceProviderType": "WChar"
+          },
+          {
+            "name": "DistName",
+            "dataType": "string",
+            "sourceColumn": "DistName",
+            "sourceProviderType": "WChar"
+          },
+          {
+            "name": "kst_taxid_Addr",
+            "dataType": "string",
+            "sourceColumn": "kst_taxid_Addr",
+            "sourceProviderType": "WChar"
+          },
+          {
+            "name": "kst_date",
+            "dataType": "dateTime",
+            "sourceColumn": "kst_date",
+            "formatString": "General Date",
+            "sourceProviderType": "DBTimeStamp"
+          },
+          {
+            "name": "Invoice_Date",
+            "dataType": "dateTime",
+            "sourceColumn": "Invoice_Date",
+            "formatString": "General Date",
+            "sourceProviderType": "DBDate"
+          },
+          {
+            "name": "kst_natcode",
+            "dataType": "string",
+            "sourceColumn": "kst_natcode",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "kst_totval",
+            "dataType": "double",
+            "sourceColumn": "kst_totval",
+            "sourceProviderType": "Numeric"
+          },
+          {
+            "name": "kst_netval",
+            "dataType": "double",
+            "sourceColumn": "kst_netval",
+            "sourceProviderType": "Numeric"
+          },
+          {
+            "name": "kst_taxval",
+            "dataType": "double",
+            "sourceColumn": "kst_taxval",
+            "sourceProviderType": "Numeric"
+          },
+          {
+            "name": "kst_currency",
+            "dataType": "string",
+            "sourceColumn": "kst_currency",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "kst_uid",
+            "dataType": "string",
+            "sourceColumn": "kst_uid",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "kst_reg",
+            "dataType": "string",
+            "sourceColumn": "kst_reg",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "kst_acttype",
+            "dataType": "string",
+            "sourceColumn": "kst_acttype",
+            "sourceProviderType": "WChar"
+          },
+          {
+            "name": "bat_branch",
+            "dataType": "string",
+            "sourceColumn": "bat_branch",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "line_Number_Inside_Batch",
+            "dataType": "string",
+            "sourceColumn": "line_Number_Inside_Batch",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "Insertion_Date",
+            "dataType": "dateTime",
+            "sourceColumn": "Insertion_Date",
+            "formatString": "General Date",
+            "sourceProviderType": "DBDate"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "D_ETA_Namozag_47",
+            "dataView": "full",
+            "source": {
+              "query": " SELECT [dbo].[ETA_Namozag_47].* FROM [dbo].[ETA_Namozag_47] ",
+              "dataSource": "DWH_TAX"
+            }
+          }
+        ],
+        "annotations": [
+          {
+            "name": "_TM_ExtProp_QueryDefinition",
+            "value": " SELECT [dbo].[ETA_Namozag_47].* FROM [dbo].[ETA_Namozag_47] "
+          },
+          {
+            "name": "_TM_ExtProp_DbTableName",
+            "value": "ETA_Namozag_47"
+          },
+          {
+            "name": "_TM_ExtProp_DbSchemaName",
+            "value": "dbo"
+          }
+        ]
+      },
+      {
+        "name": "D_ETA_Namozag_41",
         "columns": [
           {
             "name": "TransactionData_Id",
@@ -16625,6 +16410,13 @@
             "sourceProviderType": "DBTimeStamp"
           },
           {
+            "name": "Invoice_Date",
+            "dataType": "dateTime",
+            "sourceColumn": "Invoice_Date",
+            "formatString": "General Date",
+            "sourceProviderType": "DBDate"
+          },
+          {
             "name": "kst_natcode",
             "dataType": "string",
             "sourceColumn": "kst_natcode",
@@ -16724,22 +16516,81 @@
         ],
         "partitions": [
           {
-            "name": "D_ETA_nmz_41_Full_Withholding_Transactions",
+            "name": "D_ETA_Namozag_41",
             "dataView": "full",
             "source": {
-              "query": " SELECT [dbo].[ETA_Full_Withholding_Transactions].* FROM [dbo].[ETA_Full_Withholding_Transactions] ",
+              "query": " SELECT [dbo].[ETA_Namozag_41].* FROM [dbo].[ETA_Namozag_41] ",
               "dataSource": "DWH_TAX"
             }
+          }
+        ],
+        "measures": [
+          {
+            "name": "nmz41_NET_SUM_1",
+            "expression": "CALCULATE(SUM(D_ETA_Namozag_41[kst_netval]),D_ETA_Namozag_41[kst_ksmcode]=\"1\" )",
+            "isHidden": true
+          },
+          {
+            "name": "nmz41_NET_SUM_2",
+            "expression": "CALCULATE(SUM(D_ETA_Namozag_41[kst_netval]),D_ETA_Namozag_41[kst_ksmcode]=\"5\",D_ETA_Namozag_41[kst_ksmcode]=\"6\" )",
+            "isHidden": true
+          },
+          {
+            "name": "nmz41_NET_SUM_3",
+            "expression": "CALCULATE(SUM(D_ETA_Namozag_41[kst_netval]),D_ETA_Namozag_41[kst_ksmcode]=\"4\",D_ETA_Namozag_41[kst_ksmcode]=\"3\",D_ETA_Namozag_41[kst_ksmcode]=\"2\" )",
+            "isHidden": true
+          },
+          {
+            "name": "nmz41_NET_SUM",
+            "expression": "[nmz41_NET_SUM_1]+[nmz41_NET_SUM_2]-[nmz41_NET_SUM_3]"
+          },
+          {
+            "name": "nmz41_TAX_SUM_1",
+            "expression": "CALCULATE(SUM(D_ETA_Namozag_41[kst_taxval]),D_ETA_Namozag_41[kst_ksmcode]=\"1\" )",
+            "isHidden": true
+          },
+          {
+            "name": "nmz41_TAX_SUM_2",
+            "expression": "CALCULATE(SUM(D_ETA_Namozag_41[kst_taxval]),D_ETA_Namozag_41[kst_ksmcode]=\"5\",D_ETA_Namozag_41[kst_ksmcode]=\"6\" )",
+            "isHidden": true
+          },
+          {
+            "name": "nmz41_TAX_SUM_3",
+            "expression": "CALCULATE(SUM(D_ETA_Namozag_41[kst_taxval]),D_ETA_Namozag_41[kst_ksmcode]=\"4\",D_ETA_Namozag_41[kst_ksmcode]=\"3\",D_ETA_Namozag_41[kst_ksmcode]=\"2\" )",
+            "isHidden": true
+          },
+          {
+            "name": "nmz41_TAX_SUM",
+            "expression": "[nmz41_TAX_SUM_1]+[nmz41_TAX_SUM_2]-[nmz41_TAX_SUM_3]"
+          },
+          {
+            "name": "nmz41_TOTAL_Value_SUM_1",
+            "expression": "CALCULATE(SUM(D_ETA_Namozag_41[kst_totval]),D_ETA_Namozag_41[kst_ksmcode]=\"1\" )",
+            "isHidden": true
+          },
+          {
+            "name": "nmz41_TOTAL_Value_SUM_2",
+            "expression": "CALCULATE(SUM(D_ETA_Namozag_41[kst_totval]),D_ETA_Namozag_41[kst_ksmcode]=\"5\",D_ETA_Namozag_41[kst_ksmcode]=\"6\" )",
+            "isHidden": true
+          },
+          {
+            "name": "nmz41_TOTAL_Value_SUM_3",
+            "expression": "CALCULATE(SUM(D_ETA_Namozag_41[kst_taxval]),D_ETA_Namozag_41[kst_ksmcode]=\"4\",D_ETA_Namozag_41[kst_ksmcode]=\"3\",D_ETA_Namozag_41[kst_ksmcode]=\"2\" )",
+            "isHidden": true
+          },
+          {
+            "name": "nmz41_TOTAL_Value_SUM",
+            "expression": "[nmz41_TOTAL_Value_SUM_1]+[nmz41_TOTAL_Value_SUM_2]-[nmz41_TOTAL_Value_SUM_3]"
           }
         ],
         "annotations": [
           {
             "name": "_TM_ExtProp_QueryDefinition",
-            "value": " SELECT [dbo].[ETA_Full_Withholding_Transactions].* FROM [dbo].[ETA_Full_Withholding_Transactions] "
+            "value": " SELECT [dbo].[ETA_Namozag_41].* FROM [dbo].[ETA_Namozag_41] "
           },
           {
             "name": "_TM_ExtProp_DbTableName",
-            "value": "ETA_Full_Withholding_Transactions"
+            "value": "ETA_Namozag_41"
           },
           {
             "name": "_TM_ExtProp_DbSchemaName",
@@ -16748,116 +16599,103 @@
         ]
       },
       {
-        "name": "B_Dim_TaxPayers_Universe_WithHoldings",
+        "name": "B_Dim_Date_Withholdings",
         "columns": [
           {
             "type": "calculatedTableColumn",
-            "name": "Unique_Tax_Id",
+            "name": "Date_ID",
+            "dataType": "int64",
+            "isNameInferred": true,
+            "isDataTypeInferred": true,
+            "sourceColumn": "B_Dim_Date_Decs[Date_ID]"
+          },
+          {
+            "type": "calculatedTableColumn",
+            "name": "Date_Iso",
+            "dataType": "dateTime",
+            "isNameInferred": true,
+            "isDataTypeInferred": true,
+            "sourceColumn": "B_Dim_Date_Decs[Date_Iso]"
+          },
+          {
+            "type": "calculatedTableColumn",
+            "name": "Day",
+            "dataType": "int64",
+            "isNameInferred": true,
+            "isDataTypeInferred": true,
+            "sourceColumn": "B_Dim_Date_Decs[Day]"
+          },
+          {
+            "type": "calculatedTableColumn",
+            "name": "DayName",
             "dataType": "string",
             "isNameInferred": true,
             "isDataTypeInferred": true,
-            "sourceColumn": "B_Dim_TaxPayers_Universe_Master[Unique_Tax_Id]"
+            "sourceColumn": "B_Dim_Date_Decs[DayName]"
           },
           {
             "type": "calculatedTableColumn",
-            "name": "Taxpayer_Name",
+            "name": "Month",
+            "dataType": "int64",
+            "isNameInferred": true,
+            "isDataTypeInferred": true,
+            "sourceColumn": "B_Dim_Date_Decs[Month]"
+          },
+          {
+            "type": "calculatedTableColumn",
+            "name": "MonthName",
             "dataType": "string",
             "isNameInferred": true,
             "isDataTypeInferred": true,
-            "sourceColumn": "B_Dim_TaxPayers_Universe_Master[Taxpayer_Name]"
+            "sourceColumn": "B_Dim_Date_Decs[MonthName]"
           },
           {
             "type": "calculatedTableColumn",
-            "name": "IS_Registered",
-            "dataType": "boolean",
+            "name": "Week",
+            "dataType": "int64",
             "isNameInferred": true,
             "isDataTypeInferred": true,
-            "sourceColumn": "B_Dim_TaxPayers_Universe_Master[IS_Registered]",
-            "formatString": "\"TRUE\";\"TRUE\";\"FALSE\""
+            "sourceColumn": "B_Dim_Date_Decs[Week]"
           },
           {
             "type": "calculatedTableColumn",
-            "name": "IS_Not_Registered",
-            "dataType": "boolean",
+            "name": "DayOfWeek",
+            "dataType": "int64",
             "isNameInferred": true,
             "isDataTypeInferred": true,
-            "sourceColumn": "B_Dim_TaxPayers_Universe_Master[IS_Not_Registered]",
-            "formatString": "\"TRUE\";\"TRUE\";\"FALSE\""
+            "sourceColumn": "B_Dim_Date_Decs[DayOfWeek]"
           },
           {
             "type": "calculatedTableColumn",
-            "name": "IS_Dummy",
-            "dataType": "boolean",
-            "isNameInferred": true,
-            "isDataTypeInferred": true,
-            "sourceColumn": "B_Dim_TaxPayers_Universe_Master[IS_Dummy]",
-            "formatString": "\"TRUE\";\"TRUE\";\"FALSE\""
-          },
-          {
-            "type": "calculatedTableColumn",
-            "name": "Region_Name",
+            "name": "Quarter",
             "dataType": "string",
             "isNameInferred": true,
             "isDataTypeInferred": true,
-            "sourceColumn": "B_Dim_TaxPayers_Universe_Master[Region_Name]"
+            "sourceColumn": "B_Dim_Date_Decs[Quarter]"
           },
           {
             "type": "calculatedTableColumn",
-            "name": "DistrictVat_Name",
+            "name": "Year",
+            "dataType": "int64",
+            "isNameInferred": true,
+            "isDataTypeInferred": true,
+            "sourceColumn": "B_Dim_Date_Decs[Year]"
+          },
+          {
+            "type": "calculatedTableColumn",
+            "name": "taxperiod",
+            "dataType": "int64",
+            "isNameInferred": true,
+            "isDataTypeInferred": true,
+            "sourceColumn": "B_Dim_Date_Decs[taxperiod]"
+          },
+          {
+            "type": "calculatedTableColumn",
+            "name": "Year_Quarter_Period",
             "dataType": "string",
             "isNameInferred": true,
             "isDataTypeInferred": true,
-            "sourceColumn": "B_Dim_TaxPayers_Universe_Master[DistrictVat_Name]"
-          },
-          {
-            "type": "calculatedTableColumn",
-            "name": "DistrictVat_Code",
-            "dataType": "string",
-            "isNameInferred": true,
-            "isDataTypeInferred": true,
-            "sourceColumn": "B_Dim_TaxPayers_Universe_Master[DistrictVat_Code]"
-          },
-          {
-            "type": "calculatedTableColumn",
-            "name": "Region_Code",
-            "dataType": "string",
-            "isNameInferred": true,
-            "isDataTypeInferred": true,
-            "sourceColumn": "B_Dim_TaxPayers_Universe_Master[Region_Code]"
-          },
-          {
-            "type": "calculatedTableColumn",
-            "name": "IS_Income_Registered",
-            "dataType": "boolean",
-            "isNameInferred": true,
-            "isDataTypeInferred": true,
-            "sourceColumn": "B_Dim_TaxPayers_Universe_Master[IS_Income_Registered]",
-            "formatString": "\"TRUE\";\"TRUE\";\"FALSE\""
-          },
-          {
-            "type": "calculatedTableColumn",
-            "name": "IS_Vat_Registred",
-            "dataType": "boolean",
-            "isNameInferred": true,
-            "isDataTypeInferred": true,
-            "sourceColumn": "B_Dim_TaxPayers_Universe_Master[IS_Vat_Registred]",
-            "formatString": "\"TRUE\";\"TRUE\";\"FALSE\""
-          },
-          {
-            "type": "calculatedTableColumn",
-            "name": "District_Name",
-            "dataType": "string",
-            "isNameInferred": true,
-            "isDataTypeInferred": true,
-            "sourceColumn": "B_Dim_TaxPayers_Universe_Master[District_Name]"
-          },
-          {
-            "type": "calculatedTableColumn",
-            "name": "District_Code",
-            "dataType": "string",
-            "isNameInferred": true,
-            "isDataTypeInferred": true,
-            "sourceColumn": "B_Dim_TaxPayers_Universe_Master[District_Code]"
+            "sourceColumn": "B_Dim_Date_Decs[Year_Quarter_Period]"
           }
         ],
         "partitions": [
@@ -16865,7 +16703,7 @@
             "name": "CalculatedTable 1",
             "source": {
               "type": "calculated",
-              "expression": "CALCULATETABLE(B_Dim_TaxPayers_Universe_Master)"
+              "expression": "CALCULATETABLE(B_Dim_Date_Decs)"
             }
           }
         ]
@@ -17272,54 +17110,73 @@
         "crossFilteringBehavior": "bothDirections"
       },
       {
-        "name": "705f3f3b-243f-4737-91c2-29e008c13aaf",
-        "fromTable": "D_ETA_nmz_41_Full_Withholding_Transactions",
+        "name": "6d3054e3-4dea-496d-91a1-12ecd29fded8",
+        "fromTable": "D_ETA_Namozag_41",
         "fromColumn": "kst_taxid",
         "toTable": "B_Dim_TaxPayers_Universe_WithHoldings",
-        "toColumn": "Unique_Tax_Id",
-        "crossFilteringBehavior": "bothDirections"
+        "toColumn": "Unique_Tax_Id"
       },
       {
-        "name": "937903b3-2a5f-4640-8ca7-0034b4296b1b",
-        "fromTable": "D_ETA_nmz_41_Full_Withholding_Transactions",
+        "name": "15db9628-c200-458d-9a9d-025394703f9b",
+        "fromTable": "D_ETA_Namozag_41",
         "fromColumn": "gha_num",
         "toTable": "B_Dim_Gehat_5asm_w_ta7seel",
-        "toColumn": "Unique_Tax_Id",
-        "crossFilteringBehavior": "bothDirections"
+        "toColumn": "Unique_Tax_Id"
+      },
+      {
+        "name": "7ee6cc02-8430-4a4b-8429-f9e2f1e9e4c9",
+        "fromTable": "D_ETA_Namozag_46",
+        "fromColumn": "gha_num",
+        "toTable": "B_Dim_Gehat_5asm_w_ta7seel",
+        "toColumn": "Unique_Tax_Id"
+      },
+      {
+        "name": "9ebea44d-dc73-4abc-94c4-c47ff3da8b82",
+        "fromTable": "D_ETA_Namozag_46",
+        "fromColumn": "kst_taxid",
+        "toTable": "B_Dim_TaxPayers_Universe_WithHoldings",
+        "toColumn": "Unique_Tax_Id"
+      },
+      {
+        "name": "47c0650e-1055-487e-81ae-b0aff48837ff",
+        "fromTable": "D_ETA_Namozag_47",
+        "fromColumn": "gha_num",
+        "toTable": "B_Dim_Gehat_5asm_w_ta7seel",
+        "toColumn": "Unique_Tax_Id"
+      },
+      {
+        "name": "221bce17-8452-4532-8408-1005ca956781",
+        "fromTable": "D_ETA_Namozag_47",
+        "fromColumn": "kst_taxid",
+        "toTable": "B_Dim_TaxPayers_Universe_WithHoldings",
+        "toColumn": "Unique_Tax_Id"
+      },
+      {
+        "name": "476c75a0-3177-47bf-8f5c-04aa895d8f1e",
+        "fromTable": "D_ETA_Namozag_41",
+        "fromColumn": "Invoice_Date",
+        "toTable": "B_Dim_Date_Withholdings",
+        "toColumn": "Date_Iso"
+      },
+      {
+        "name": "36a568d9-2097-4b21-b863-c331fdcbb3b6",
+        "fromTable": "D_ETA_Namozag_46",
+        "fromColumn": "Invoice_Date",
+        "toTable": "B_Dim_Date_Withholdings",
+        "toColumn": "Date_Iso"
+      },
+      {
+        "name": "055f7bd2-2bb7-4d9c-b3df-d611fee47f46",
+        "fromTable": "D_ETA_Namozag_47",
+        "fromColumn": "Invoice_Date",
+        "toTable": "B_Dim_Date_Withholdings",
+        "toColumn": "Date_Iso"
       }
     ],
     "perspectives": [
       {
-        "name": "Analytical_Reports",
+        "name": "Withholdings",
         "tables": [
-          {
-            "name": "A_Dim_Districts",
-            "columns": [
-              {
-                "name": "District_Code"
-              },
-              {
-                "name": "District_Name"
-              },
-              {
-                "name": "District_Type"
-              }
-            ]
-          },
-          {
-            "name": "A_Dim_Districts_Vat",
-            "columns": [
-              {
-                "name": "District_Type"
-              },
-              {
-                "name": "DistrictVat_Code"
-              },
-              {
-                "name": "DistrictVat_Name"
-              }
-            ]
-          },
           {
             "name": "A_Dim_Gehat_Categories",
             "columns": [
@@ -17328,39 +17185,6 @@
               },
               {
                 "name": "Id"
-              }
-            ]
-          },
-          {
-            "name": "A_Dim_Region",
-            "columns": [
-              {
-                "name": "RegionCode"
-              },
-              {
-                "name": "RegionName"
-              }
-            ]
-          },
-          {
-            "name": "A_Dim_TaxPayer_Categories",
-            "columns": [
-              {
-                "name": "Category_Name"
-              },
-              {
-                "name": "Id"
-              }
-            ]
-          },
-          {
-            "name": "A_Dim_TaxPayer_Types",
-            "columns": [
-              {
-                "name": "Id"
-              },
-              {
-                "name": "Type_Name"
               }
             ]
           },
@@ -17406,24 +17230,75 @@
             ]
           },
           {
-            "name": "B_Dim_DeclarationTypes",
+            "name": "B_Dim_Date_Withholdings",
             "columns": [
               {
-                "name": "ID"
+                "name": "Date_ID"
               },
               {
-                "name": "Name"
+                "name": "Date_Iso"
+              },
+              {
+                "name": "Day"
+              },
+              {
+                "name": "DayName"
+              },
+              {
+                "name": "DayOfWeek"
+              },
+              {
+                "name": "Month"
+              },
+              {
+                "name": "MonthName"
+              },
+              {
+                "name": "Quarter"
+              },
+              {
+                "name": "taxperiod"
+              },
+              {
+                "name": "Week"
+              },
+              {
+                "name": "Year"
+              },
+              {
+                "name": "Year_Quarter_Period"
               }
             ]
           },
           {
-            "name": "B_Dim_LinkTypes",
+            "name": "B_Dim_Gehat_5asm_w_ta7seel",
             "columns": [
               {
-                "name": "ID"
+                "name": "Fk_Taxpayer_Category_Id"
               },
               {
-                "name": "Name"
+                "name": "Geha_Address"
+              },
+              {
+                "name": "Geha_Code"
+              },
+              {
+                "name": "Geha_Email"
+              },
+              {
+                "name": "Geha_Fax"
+              },
+              {
+                "name": "Geha_Name"
+              },
+              {
+                "name": "Geha_Telephone"
+              },
+              {
+                "name": "Taxpayer_Id"
+              },
+              {
+                "name": "Unique_Tax_Id"
               }
             ]
           },
@@ -17603,17 +17478,9 @@
               },
               {
                 "name": "Website"
-              }
-            ]
-          },
-          {
-            "name": "B_Dim_VatTypes",
-            "columns": [
-              {
-                "name": "ID"
               },
               {
-                "name": "Name"
+                "name": "Zero_or_No_Value_3_times_Flag"
               }
             ]
           },
@@ -17643,6 +17510,9 @@
               },
               {
                 "name": "DeclarationTypeID"
+              },
+              {
+                "name": "Developed_By"
               },
               {
                 "name": "DocumentNum"
@@ -17682,6 +17552,9 @@
               },
               {
                 "name": "LinkCodeID"
+              },
+              {
+                "name": "Namozag_Name"
               },
               {
                 "name": "NationalPassNum"
@@ -17797,6 +17670,9 @@
                 "name": "DEC_Sum_Sales_VAT"
               },
               {
+                "name": "DEC_Total_Table_Tax_Value"
+              },
+              {
                 "name": "DEC_Total_Table_Value"
               },
               {
@@ -17806,10 +17682,10 @@
                 "name": "Different_Sales_vat-5asm_w_ta7seel"
               },
               {
-                "name": "Diffrent_Purchases_Frauds"
+                "name": "Diffrence_Purchases_Gamarek-Vat"
               },
               {
-                "name": "Diffrence_Purchases_Gamarek-Vat"
+                "name": "Diffrent_Purchases_Frauds"
               },
               {
                 "name": "Diffrent_Sales_Frauds"
@@ -17827,159 +17703,503 @@
                 "name": "TABLE_Debit"
               },
               {
+                "name": "Total_TaxLoss_After_Payment"
+              },
+              {
                 "name": "VAT_Debit"
               }
             ]
           },
           {
-            "name": "C_Dim_Declarations_Versions",
+            "name": "D_Dim_Invoices_5asm_w_Ta7seel",
             "columns": [
               {
-                "name": "AcceptanceDate"
+                "name": "CollectedMoney"
               },
               {
-                "name": "ApplicantName"
+                "name": "CurrencyName"
               },
               {
-                "name": "Artificial_Key"
+                "name": "Developed_By"
               },
               {
-                "name": "AuthorizationNumber"
+                "name": "Exemption41"
               },
               {
-                "name": "CreationDate"
+                "name": "FinancierFileNumber"
               },
               {
-                "name": "DebtValue"
+                "name": "FinancierUniqueTaxId"
               },
               {
-                "name": "Dec_ID_S"
+                "name": "FK_Artifical_Key"
               },
               {
-                "name": "DeclarationTypeID"
+                "name": "FK_TransactionPeriod_ID"
               },
               {
-                "name": "DocumentNum"
+                "name": "Geha_Unique_Tax_ID"
               },
               {
-                "name": "Fk_Send_Date_ID"
+                "name": "OpponentPercentage"
               },
               {
-                "name": "FK_SSEND_DDATE"
+                "name": "OpponentTypeId"
               },
               {
-                "name": "FK_TaxPeriod_ID"
+                "name": "Tax_Year"
               },
               {
-                "name": "FK_VAT_Type_ID"
+                "name": "TransactionData_Id"
               },
               {
-                "name": "ID"
+                "name": "TransactionDate"
               },
               {
-                "name": "IsDeleted"
+                "name": "TransactionNet"
               },
               {
-                "name": "IsPaid"
+                "name": "TransactionNumber"
               },
               {
-                "name": "IsPaidTable"
+                "name": "TransactionPeriod"
               },
               {
-                "name": "IsReplicated"
+                "name": "TransactionTotalValue"
               },
               {
-                "name": "IsSend"
+                "name": "TransactionTypeId"
               },
               {
-                "name": "IsSigned"
+                "name": "Year_quarter_Tax_Period"
+              }
+            ],
+            "measures": [
+              {
+                "name": "ETA_NMZ41_NET_SUM"
               },
               {
-                "name": "LinkCodeID"
+                "name": "ETA_NMZ41_NET_SUM_1"
               },
               {
-                "name": "NationalPassNum"
+                "name": "ETA_NMZ41_NET_SUM_2"
               },
               {
-                "name": "PaymentDate"
+                "name": "ETA_NMZ41_NET_SUM_3"
               },
               {
-                "name": "PaymentMethod"
+                "name": "ETA_NMZ41_TAX_SUM"
               },
               {
-                "name": "PersonalizeTypeID"
+                "name": "ETA_NMZ41_TAX_SUM_1"
               },
               {
-                "name": "PurchaseAdjustment"
+                "name": "ETA_NMZ41_TAX_SUM_2"
               },
               {
-                "name": "PurchaseTotal"
+                "name": "ETA_NMZ41_TAX_SUM_3"
               },
               {
-                "name": "PurchaseVat"
+                "name": "ETA_NMZ41_TOTAL_Value_SUM"
               },
               {
-                "name": "RecivableTax"
+                "name": "ETA_NMZ41_TOTAL_Value_SUM_1"
               },
               {
-                "name": "ReconciliationType"
+                "name": "ETA_NMZ41_TOTAL_Value_SUM_2"
               },
               {
-                "name": "ReconciliationValue"
+                "name": "ETA_NMZ41_TOTAL_Value_SUM_3"
               },
               {
-                "name": "RecoPaymentDate"
+                "name": "Transaction_TOTAL_Net_Sales"
+              }
+            ]
+          },
+          {
+            "name": "D_ETA_Namozag_41",
+            "columns": [
+              {
+                "name": "bat_branch"
               },
               {
-                "name": "RejectionDate"
+                "name": "bat_prd"
               },
               {
-                "name": "Representitive"
+                "name": "Developed_By"
               },
               {
-                "name": "SalesAdjustment"
+                "name": "flag"
               },
               {
-                "name": "SalesTotal"
+                "name": "gha_name"
               },
               {
-                "name": "SalesTotall"
+                "name": "gha_num"
               },
               {
-                "name": "SalesVat"
+                "name": "Insertion_Date"
               },
               {
-                "name": "SalesVatt"
+                "name": "Invoice_Date"
               },
               {
-                "name": "Submission_Delay"
+                "name": "kst_acttype"
               },
               {
-                "name": "TableTaxAdjustment"
+                "name": "kst_currency"
               },
               {
-                "name": "TableTaxTotal"
+                "name": "kst_date"
               },
               {
-                "name": "TableTaxVat"
+                "name": "kst_dealtype"
               },
               {
-                "name": "TaxpayerID"
+                "name": "kst_docdate"
               },
               {
-                "name": "TaxPeriod"
+                "name": "kst_docnum"
               },
               {
-                "name": "TotalTaxValue"
+                "name": "kst_docnum1"
               },
               {
-                "name": "UniqueTaxID"
+                "name": "kst_docnum2"
               },
               {
-                "name": "UpdatedDate"
+                "name": "kst_file"
               },
               {
-                "name": "version"
+                "name": "kst_flag"
+              },
+              {
+                "name": "kst_ghatype"
+              },
+              {
+                "name": "kst_jul"
+              },
+              {
+                "name": "kst_ksmcode"
+              },
+              {
+                "name": "kst_ksmval"
+              },
+              {
+                "name": "kst_lineno"
+              },
+              {
+                "name": "kst_natcode"
+              },
+              {
+                "name": "kst_netval"
+              },
+              {
+                "name": "kst_pageno"
+              },
+              {
+                "name": "kst_prcnt"
+              },
+              {
+                "name": "kst_ratflag"
+              },
+              {
+                "name": "kst_reg"
+              },
+              {
+                "name": "kst_rsysdate"
+              },
+              {
+                "name": "kst_ruid"
+              },
+              {
+                "name": "kst_serl"
+              },
+              {
+                "name": "kst_sysdate"
+              },
+              {
+                "name": "kst_taxid"
+              },
+              {
+                "name": "kst_taxval"
+              },
+              {
+                "name": "kst_totval"
+              },
+              {
+                "name": "kst_uid"
+              },
+              {
+                "name": "kst_upsysdate"
+              },
+              {
+                "name": "kst_upuid"
+              },
+              {
+                "name": "kst_year"
+              },
+              {
+                "name": "line_Number_Inside_Batch"
+              },
+              {
+                "name": "Taxpayer_Id"
+              },
+              {
+                "name": "TransactionData_Id"
+              },
+              {
+                "name": "Zero_Tax_Cause"
+              }
+            ]
+          },
+          {
+            "name": "D_ETA_Namozag_46",
+            "columns": [
+              {
+                "name": "bat_branch"
+              },
+              {
+                "name": "bat_prd"
+              },
+              {
+                "name": "Closed"
+              },
+              {
+                "name": "Closed_Date"
+              },
+              {
+                "name": "flag"
+              },
+              {
+                "name": "gha_name"
+              },
+              {
+                "name": "gha_num"
+              },
+              {
+                "name": "Insertion_Date"
+              },
+              {
+                "name": "Invoice_Date"
+              },
+              {
+                "name": "kst_acttype"
+              },
+              {
+                "name": "kst_currency"
+              },
+              {
+                "name": "kst_date"
+              },
+              {
+                "name": "kst_dealtype"
+              },
+              {
+                "name": "kst_docnum1"
+              },
+              {
+                "name": "kst_file"
+              },
+              {
+                "name": "kst_flag"
+              },
+              {
+                "name": "kst_ghatype"
+              },
+              {
+                "name": "kst_jul"
+              },
+              {
+                "name": "kst_natcode"
+              },
+              {
+                "name": "kst_netval"
+              },
+              {
+                "name": "kst_pageno"
+              },
+              {
+                "name": "kst_ratflag"
+              },
+              {
+                "name": "kst_reg"
+              },
+              {
+                "name": "kst_rsysdate"
+              },
+              {
+                "name": "kst_ruid"
+              },
+              {
+                "name": "kst_serl"
+              },
+              {
+                "name": "kst_sysdate"
+              },
+              {
+                "name": "kst_taxid"
+              },
+              {
+                "name": "kst_taxval"
+              },
+              {
+                "name": "kst_totval"
+              },
+              {
+                "name": "kst_uid"
+              },
+              {
+                "name": "kst_upsysdate"
+              },
+              {
+                "name": "kst_upuid"
+              },
+              {
+                "name": "kst_year"
+              },
+              {
+                "name": "line_Number_Inside_Batch"
+              },
+              {
+                "name": "National_ID"
+              },
+              {
+                "name": "Taxpayer_Id"
+              },
+              {
+                "name": "Taxpayer_Name"
+              },
+              {
+                "name": "TransactionData_Id"
+              }
+            ]
+          },
+          {
+            "name": "D_ETA_Namozag_47",
+            "columns": [
+              {
+                "name": "bat_branch"
+              },
+              {
+                "name": "bat_prd"
+              },
+              {
+                "name": "Closed"
+              },
+              {
+                "name": "Closed_Date"
+              },
+              {
+                "name": "DistCode"
+              },
+              {
+                "name": "DistName"
+              },
+              {
+                "name": "flag"
+              },
+              {
+                "name": "gha_name"
+              },
+              {
+                "name": "gha_num"
+              },
+              {
+                "name": "Insertion_Date"
+              },
+              {
+                "name": "Invoice_Date"
+              },
+              {
+                "name": "kst_acttype"
+              },
+              {
+                "name": "kst_currency"
+              },
+              {
+                "name": "kst_date"
+              },
+              {
+                "name": "kst_dealtype"
+              },
+              {
+                "name": "kst_docnum1"
+              },
+              {
+                "name": "kst_file"
+              },
+              {
+                "name": "kst_flag"
+              },
+              {
+                "name": "kst_ghatype"
+              },
+              {
+                "name": "kst_jul"
+              },
+              {
+                "name": "kst_natcode"
+              },
+              {
+                "name": "kst_netval"
+              },
+              {
+                "name": "kst_pageno"
+              },
+              {
+                "name": "kst_ratflag"
+              },
+              {
+                "name": "kst_reg"
+              },
+              {
+                "name": "kst_rsysdate"
+              },
+              {
+                "name": "kst_ruid"
+              },
+              {
+                "name": "kst_serl"
+              },
+              {
+                "name": "kst_sysdate"
+              },
+              {
+                "name": "kst_taxid"
+              },
+              {
+                "name": "kst_taxid_Addr"
+              },
+              {
+                "name": "kst_taxval"
+              },
+              {
+                "name": "kst_totval"
+              },
+              {
+                "name": "kst_uid"
+              },
+              {
+                "name": "kst_upsysdate"
+              },
+              {
+                "name": "kst_upuid"
+              },
+              {
+                "name": "kst_year"
+              },
+              {
+                "name": "line_Number_Inside_Batch"
+              },
+              {
+                "name": "Taxpayer_Id"
+              },
+              {
+                "name": "TaxPayer_Name"
+              },
+              {
+                "name": "TransactionData_Id"
               }
             ]
           }
