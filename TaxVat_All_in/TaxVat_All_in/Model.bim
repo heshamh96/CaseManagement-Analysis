@@ -14533,15 +14533,18 @@
           },
           {
             "name": "ETA_NMZ41_NET_SUM",
-            "expression": "[ETA_NMZ41_NET_SUM_1]+[ETA_NMZ41_NET_SUM_2]-[ETA_NMZ41_NET_SUM_3]"
+            "expression": "[ETA_NMZ41_NET_SUM_1]+[ETA_NMZ41_NET_SUM_2]-[ETA_NMZ41_NET_SUM_3]",
+            "isHidden": true
           },
           {
             "name": "ETA_NMZ41_TAX_SUM",
-            "expression": "[ETA_NMZ41_TAX_SUM_1]+[ETA_NMZ41_TAX_SUM_2]-[ETA_NMZ41_TAX_SUM_3]"
+            "expression": "[ETA_NMZ41_TAX_SUM_1]+[ETA_NMZ41_TAX_SUM_2]-[ETA_NMZ41_TAX_SUM_3]",
+            "isHidden": true
           },
           {
             "name": "ETA_NMZ41_TOTAL_Value_SUM",
-            "expression": "[ETA_NMZ41_TOTAL_Value_SUM_1]+[ETA_NMZ41_TOTAL_Value_SUM_2]-[ETA_NMZ41_TOTAL_Value_SUM_3]"
+            "expression": "[ETA_NMZ41_TOTAL_Value_SUM_1]+[ETA_NMZ41_TOTAL_Value_SUM_2]-[ETA_NMZ41_TOTAL_Value_SUM_3]",
+            "isHidden": true
           }
         ],
         "annotations": [
@@ -16707,6 +16710,178 @@
             }
           }
         ]
+      },
+      {
+        "name": "B_Dim_Gehat_5asm_w_ta7seel_46",
+        "columns": [
+          {
+            "type": "calculatedTableColumn",
+            "name": "Taxpayer_Id",
+            "dataType": "string",
+            "isNameInferred": true,
+            "isDataTypeInferred": true,
+            "sourceColumn": "B_Dim_Gehat_5asm_w_ta7seel[Taxpayer_Id]"
+          },
+          {
+            "type": "calculatedTableColumn",
+            "name": "Geha_Code",
+            "dataType": "string",
+            "isNameInferred": true,
+            "isDataTypeInferred": true,
+            "sourceColumn": "B_Dim_Gehat_5asm_w_ta7seel[Geha_Code]"
+          },
+          {
+            "type": "calculatedTableColumn",
+            "name": "Unique_Tax_Id",
+            "dataType": "string",
+            "isNameInferred": true,
+            "isDataTypeInferred": true,
+            "sourceColumn": "B_Dim_Gehat_5asm_w_ta7seel[Unique_Tax_Id]"
+          },
+          {
+            "type": "calculatedTableColumn",
+            "name": "Geha_Name",
+            "dataType": "string",
+            "isNameInferred": true,
+            "isDataTypeInferred": true,
+            "sourceColumn": "B_Dim_Gehat_5asm_w_ta7seel[Geha_Name]"
+          },
+          {
+            "type": "calculatedTableColumn",
+            "name": "Geha_Address",
+            "dataType": "string",
+            "isNameInferred": true,
+            "isDataTypeInferred": true,
+            "sourceColumn": "B_Dim_Gehat_5asm_w_ta7seel[Geha_Address]"
+          },
+          {
+            "type": "calculatedTableColumn",
+            "name": "Geha_Email",
+            "dataType": "string",
+            "isNameInferred": true,
+            "isDataTypeInferred": true,
+            "sourceColumn": "B_Dim_Gehat_5asm_w_ta7seel[Geha_Email]"
+          },
+          {
+            "type": "calculatedTableColumn",
+            "name": "Geha_Telephone",
+            "dataType": "string",
+            "isNameInferred": true,
+            "isDataTypeInferred": true,
+            "sourceColumn": "B_Dim_Gehat_5asm_w_ta7seel[Geha_Telephone]"
+          },
+          {
+            "type": "calculatedTableColumn",
+            "name": "Geha_Fax",
+            "dataType": "string",
+            "isNameInferred": true,
+            "isDataTypeInferred": true,
+            "sourceColumn": "B_Dim_Gehat_5asm_w_ta7seel[Geha_Fax]"
+          },
+          {
+            "type": "calculatedTableColumn",
+            "name": "Fk_Taxpayer_Category_Id",
+            "dataType": "int64",
+            "isNameInferred": true,
+            "isDataTypeInferred": true,
+            "sourceColumn": "B_Dim_Gehat_5asm_w_ta7seel[Fk_Taxpayer_Category_Id]"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "CalculatedTable 1",
+            "source": {
+              "type": "calculated",
+              "expression": "CALCULATETABLE(B_Dim_Gehat_5asm_w_ta7seel)"
+            }
+          }
+        ]
+      },
+      {
+        "name": "B_Dim_Gehat_5asm_w_ta7seel_47",
+        "columns": [
+          {
+            "type": "calculatedTableColumn",
+            "name": "Taxpayer_Id",
+            "dataType": "string",
+            "isNameInferred": true,
+            "isDataTypeInferred": true,
+            "sourceColumn": "B_Dim_Gehat_5asm_w_ta7seel[Taxpayer_Id]"
+          },
+          {
+            "type": "calculatedTableColumn",
+            "name": "Geha_Code",
+            "dataType": "string",
+            "isNameInferred": true,
+            "isDataTypeInferred": true,
+            "sourceColumn": "B_Dim_Gehat_5asm_w_ta7seel[Geha_Code]"
+          },
+          {
+            "type": "calculatedTableColumn",
+            "name": "Unique_Tax_Id",
+            "dataType": "string",
+            "isNameInferred": true,
+            "isDataTypeInferred": true,
+            "sourceColumn": "B_Dim_Gehat_5asm_w_ta7seel[Unique_Tax_Id]"
+          },
+          {
+            "type": "calculatedTableColumn",
+            "name": "Geha_Name",
+            "dataType": "string",
+            "isNameInferred": true,
+            "isDataTypeInferred": true,
+            "sourceColumn": "B_Dim_Gehat_5asm_w_ta7seel[Geha_Name]"
+          },
+          {
+            "type": "calculatedTableColumn",
+            "name": "Geha_Address",
+            "dataType": "string",
+            "isNameInferred": true,
+            "isDataTypeInferred": true,
+            "sourceColumn": "B_Dim_Gehat_5asm_w_ta7seel[Geha_Address]"
+          },
+          {
+            "type": "calculatedTableColumn",
+            "name": "Geha_Email",
+            "dataType": "string",
+            "isNameInferred": true,
+            "isDataTypeInferred": true,
+            "sourceColumn": "B_Dim_Gehat_5asm_w_ta7seel[Geha_Email]"
+          },
+          {
+            "type": "calculatedTableColumn",
+            "name": "Geha_Telephone",
+            "dataType": "string",
+            "isNameInferred": true,
+            "isDataTypeInferred": true,
+            "sourceColumn": "B_Dim_Gehat_5asm_w_ta7seel[Geha_Telephone]"
+          },
+          {
+            "type": "calculatedTableColumn",
+            "name": "Geha_Fax",
+            "dataType": "string",
+            "isNameInferred": true,
+            "isDataTypeInferred": true,
+            "sourceColumn": "B_Dim_Gehat_5asm_w_ta7seel[Geha_Fax]"
+          },
+          {
+            "type": "calculatedTableColumn",
+            "name": "Fk_Taxpayer_Category_Id",
+            "dataType": "int64",
+            "isNameInferred": true,
+            "isDataTypeInferred": true,
+            "sourceColumn": "B_Dim_Gehat_5asm_w_ta7seel[Fk_Taxpayer_Category_Id]"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "CalculatedTable 1",
+            "source": {
+              "type": "calculated",
+              "expression": "CALCULATETABLE(B_Dim_Gehat_5asm_w_ta7seel)"
+            }
+          }
+        ]
       }
     ],
     "relationships": [
@@ -17110,38 +17285,10 @@
         "crossFilteringBehavior": "bothDirections"
       },
       {
-        "name": "6d3054e3-4dea-496d-91a1-12ecd29fded8",
-        "fromTable": "D_ETA_Namozag_41",
-        "fromColumn": "kst_taxid",
-        "toTable": "B_Dim_TaxPayers_Universe_WithHoldings",
-        "toColumn": "Unique_Tax_Id"
-      },
-      {
-        "name": "15db9628-c200-458d-9a9d-025394703f9b",
-        "fromTable": "D_ETA_Namozag_41",
-        "fromColumn": "gha_num",
-        "toTable": "B_Dim_Gehat_5asm_w_ta7seel",
-        "toColumn": "Unique_Tax_Id"
-      },
-      {
-        "name": "7ee6cc02-8430-4a4b-8429-f9e2f1e9e4c9",
-        "fromTable": "D_ETA_Namozag_46",
-        "fromColumn": "gha_num",
-        "toTable": "B_Dim_Gehat_5asm_w_ta7seel",
-        "toColumn": "Unique_Tax_Id"
-      },
-      {
         "name": "9ebea44d-dc73-4abc-94c4-c47ff3da8b82",
         "fromTable": "D_ETA_Namozag_46",
         "fromColumn": "kst_taxid",
         "toTable": "B_Dim_TaxPayers_Universe_WithHoldings",
-        "toColumn": "Unique_Tax_Id"
-      },
-      {
-        "name": "47c0650e-1055-487e-81ae-b0aff48837ff",
-        "fromTable": "D_ETA_Namozag_47",
-        "fromColumn": "gha_num",
-        "toTable": "B_Dim_Gehat_5asm_w_ta7seel",
         "toColumn": "Unique_Tax_Id"
       },
       {
@@ -17171,6 +17318,38 @@
         "fromColumn": "Invoice_Date",
         "toTable": "B_Dim_Date_Withholdings",
         "toColumn": "Date_Iso"
+      },
+      {
+        "name": "c2d953f8-efdc-41aa-bdba-b98d80b709ca",
+        "fromTable": "D_ETA_Namozag_41",
+        "fromColumn": "kst_taxid",
+        "toTable": "B_Dim_TaxPayers_Universe_WithHoldings",
+        "toColumn": "Unique_Tax_Id",
+        "crossFilteringBehavior": "bothDirections"
+      },
+      {
+        "name": "0be8f0bc-e6b2-4206-a7e2-0e637aef0e4e",
+        "fromTable": "D_ETA_Namozag_46",
+        "fromColumn": "gha_num",
+        "toTable": "B_Dim_Gehat_5asm_w_ta7seel_46",
+        "toColumn": "Unique_Tax_Id",
+        "crossFilteringBehavior": "bothDirections"
+      },
+      {
+        "name": "58c64a19-38bb-455b-9880-cbadc4e53594",
+        "fromTable": "D_ETA_Namozag_47",
+        "fromColumn": "gha_num",
+        "toTable": "B_Dim_Gehat_5asm_w_ta7seel_47",
+        "toColumn": "Unique_Tax_Id",
+        "crossFilteringBehavior": "bothDirections"
+      },
+      {
+        "name": "6088ac6e-472d-4798-ba7f-7933b02b096c",
+        "fromTable": "D_ETA_Namozag_41",
+        "fromColumn": "gha_num",
+        "toTable": "B_Dim_Gehat_5asm_w_ta7seel",
+        "toColumn": "Unique_Tax_Id",
+        "crossFilteringBehavior": "bothDirections"
       }
     ],
     "perspectives": [
@@ -17951,6 +18130,44 @@
               {
                 "name": "Zero_Tax_Cause"
               }
+            ],
+            "measures": [
+              {
+                "name": "nmz41_NET_SUM"
+              },
+              {
+                "name": "nmz41_NET_SUM_1"
+              },
+              {
+                "name": "nmz41_NET_SUM_2"
+              },
+              {
+                "name": "nmz41_NET_SUM_3"
+              },
+              {
+                "name": "nmz41_TAX_SUM"
+              },
+              {
+                "name": "nmz41_TAX_SUM_1"
+              },
+              {
+                "name": "nmz41_TAX_SUM_2"
+              },
+              {
+                "name": "nmz41_TAX_SUM_3"
+              },
+              {
+                "name": "nmz41_TOTAL_Value_SUM"
+              },
+              {
+                "name": "nmz41_TOTAL_Value_SUM_1"
+              },
+              {
+                "name": "nmz41_TOTAL_Value_SUM_2"
+              },
+              {
+                "name": "nmz41_TOTAL_Value_SUM_3"
+              }
             ]
           },
           {
@@ -18200,6 +18417,50 @@
               },
               {
                 "name": "TransactionData_Id"
+              }
+            ]
+          },
+          {
+            "name": "B_Dim_TaxPayers_Universe_WithHoldings",
+            "columns": [
+              {
+                "name": "District_Code"
+              },
+              {
+                "name": "District_Name"
+              },
+              {
+                "name": "DistrictVat_Code"
+              },
+              {
+                "name": "DistrictVat_Name"
+              },
+              {
+                "name": "IS_Dummy"
+              },
+              {
+                "name": "IS_Income_Registered"
+              },
+              {
+                "name": "IS_Not_Registered"
+              },
+              {
+                "name": "IS_Registered"
+              },
+              {
+                "name": "IS_Vat_Registred"
+              },
+              {
+                "name": "Region_Code"
+              },
+              {
+                "name": "Region_Name"
+              },
+              {
+                "name": "Taxpayer_Name"
+              },
+              {
+                "name": "Unique_Tax_Id"
               }
             ]
           }
