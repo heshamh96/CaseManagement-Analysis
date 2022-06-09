@@ -18463,6 +18463,70 @@
                 "name": "Unique_Tax_Id"
               }
             ]
+          },
+          {
+            "name": "B_Dim_Gehat_5asm_w_ta7seel_46",
+            "columns": [
+              {
+                "name": "Fk_Taxpayer_Category_Id"
+              },
+              {
+                "name": "Geha_Address"
+              },
+              {
+                "name": "Geha_Code"
+              },
+              {
+                "name": "Geha_Email"
+              },
+              {
+                "name": "Geha_Fax"
+              },
+              {
+                "name": "Geha_Name"
+              },
+              {
+                "name": "Geha_Telephone"
+              },
+              {
+                "name": "Taxpayer_Id"
+              },
+              {
+                "name": "Unique_Tax_Id"
+              }
+            ]
+          },
+          {
+            "name": "B_Dim_Gehat_5asm_w_ta7seel_47",
+            "columns": [
+              {
+                "name": "Fk_Taxpayer_Category_Id"
+              },
+              {
+                "name": "Geha_Address"
+              },
+              {
+                "name": "Geha_Code"
+              },
+              {
+                "name": "Geha_Email"
+              },
+              {
+                "name": "Geha_Fax"
+              },
+              {
+                "name": "Geha_Name"
+              },
+              {
+                "name": "Geha_Telephone"
+              },
+              {
+                "name": "Taxpayer_Id"
+              },
+              {
+                "name": "Unique_Tax_Id"
+              }
+            ]
           }
         ]
       }
