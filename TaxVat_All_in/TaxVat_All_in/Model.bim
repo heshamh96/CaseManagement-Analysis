@@ -18024,6 +18024,15 @@
               },
               {
                 "name": "Unique_Tax_Id"
+              },
+              {
+                "name": "District_Name"
+              },
+              {
+                "name": "DistrictVat_Name"
+              },
+              {
+                "name": "Region_Name"
               }
             ]
           },
@@ -19039,6 +19048,15 @@
               },
               {
                 "name": "Unique_Tax_Id"
+              },
+              {
+                "name": "District_Name"
+              },
+              {
+                "name": "DistrictVat_Name"
+              },
+              {
+                "name": "Region_Name"
               }
             ]
           },
@@ -19071,6 +19089,15 @@
               },
               {
                 "name": "Unique_Tax_Id"
+              },
+              {
+                "name": "District_Name"
+              },
+              {
+                "name": "DistrictVat_Name"
+              },
+              {
+                "name": "Region_Name"
               }
             ]
           }
