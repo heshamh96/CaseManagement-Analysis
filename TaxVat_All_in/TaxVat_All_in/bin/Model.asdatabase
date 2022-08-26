@@ -92,6 +92,11 @@
             "name": "Year_Quarter_Period",
             "dataType": "string",
             "sourceColumn": "Year_Quarter_Period"
+          },
+          {
+            "name": "Year_Half_Period",
+            "dataType": "string",
+            "sourceColumn": "Year_Half_Period"
           }
         ],
         "partitions": [
@@ -211,6 +216,14 @@
                   "        <int>163</int>",
                   "      </value>",
                   "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>Year_Half_Period</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>138</int>",
+                  "      </value>",
+                  "    </item>",
                   "  </ColumnWidths>",
                   "  <ColumnDisplayIndex>",
                   "    <item>",
@@ -309,12 +322,28 @@
                   "        <int>11</int>",
                   "      </value>",
                   "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>Year_Half_Period</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>12</int>",
+                  "      </value>",
+                  "    </item>",
                   "  </ColumnDisplayIndex>",
                   "  <ColumnFrozen />",
                   "  <ColumnChecked>",
                   "    <item>",
                   "      <key>",
                   "        <string>Year_Quarter_Period</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <boolean>true</boolean>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>Year_Half_Period</string>",
                   "      </key>",
                   "      <value>",
                   "        <boolean>true</boolean>",
@@ -452,6 +481,14 @@
               "        <int>163</int>",
               "      </value>",
               "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>Year_Half_Period</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>138</int>",
+              "      </value>",
+              "    </item>",
               "  </ColumnWidths>",
               "  <ColumnDisplayIndex>",
               "    <item>",
@@ -550,12 +587,28 @@
               "        <int>11</int>",
               "      </value>",
               "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>Year_Half_Period</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>12</int>",
+              "      </value>",
+              "    </item>",
               "  </ColumnDisplayIndex>",
               "  <ColumnFrozen />",
               "  <ColumnChecked>",
               "    <item>",
               "      <key>",
               "        <string>Year_Quarter_Period</string>",
+              "      </key>",
+              "      <value>",
+              "        <boolean>true</boolean>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>Year_Half_Period</string>",
               "      </key>",
               "      <value>",
               "        <boolean>true</boolean>",
@@ -3129,6 +3182,11 @@
             "name": "Year_Quarter_Period",
             "dataType": "string",
             "sourceColumn": "Year_Quarter_Period"
+          },
+          {
+            "name": "Year_Half_Period",
+            "dataType": "string",
+            "sourceColumn": "Year_Half_Period"
           }
         ],
         "partitions": [
@@ -3248,6 +3306,14 @@
                   "        <int>163</int>",
                   "      </value>",
                   "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>Year_Half_Period</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>138</int>",
+                  "      </value>",
+                  "    </item>",
                   "  </ColumnWidths>",
                   "  <ColumnDisplayIndex>",
                   "    <item>",
@@ -3346,12 +3412,28 @@
                   "        <int>11</int>",
                   "      </value>",
                   "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>Year_Half_Period</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>12</int>",
+                  "      </value>",
+                  "    </item>",
                   "  </ColumnDisplayIndex>",
                   "  <ColumnFrozen />",
                   "  <ColumnChecked>",
                   "    <item>",
                   "      <key>",
                   "        <string>Year_Quarter_Period</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <boolean>true</boolean>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>Year_Half_Period</string>",
                   "      </key>",
                   "      <value>",
                   "        <boolean>true</boolean>",
@@ -3489,6 +3571,14 @@
               "        <int>163</int>",
               "      </value>",
               "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>Year_Half_Period</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>138</int>",
+              "      </value>",
+              "    </item>",
               "  </ColumnWidths>",
               "  <ColumnDisplayIndex>",
               "    <item>",
@@ -3587,12 +3677,28 @@
               "        <int>11</int>",
               "      </value>",
               "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>Year_Half_Period</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>12</int>",
+              "      </value>",
+              "    </item>",
               "  </ColumnDisplayIndex>",
               "  <ColumnFrozen />",
               "  <ColumnChecked>",
               "    <item>",
               "      <key>",
               "        <string>Year_Quarter_Period</string>",
+              "      </key>",
+              "      <value>",
+              "        <boolean>true</boolean>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>Year_Half_Period</string>",
               "      </key>",
               "      <value>",
               "        <boolean>true</boolean>",
@@ -9620,6 +9726,11 @@
             "name": "Year_Quarter_Period",
             "dataType": "string",
             "sourceColumn": "Year_Quarter_Period"
+          },
+          {
+            "name": "Year_Half_Period",
+            "dataType": "string",
+            "sourceColumn": "Year_Half_Period"
           }
         ],
         "partitions": [
@@ -9739,6 +9850,14 @@
                   "        <int>163</int>",
                   "      </value>",
                   "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>Year_Half_Period</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>138</int>",
+                  "      </value>",
+                  "    </item>",
                   "  </ColumnWidths>",
                   "  <ColumnDisplayIndex>",
                   "    <item>",
@@ -9837,12 +9956,28 @@
                   "        <int>11</int>",
                   "      </value>",
                   "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>Year_Half_Period</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>12</int>",
+                  "      </value>",
+                  "    </item>",
                   "  </ColumnDisplayIndex>",
                   "  <ColumnFrozen />",
                   "  <ColumnChecked>",
                   "    <item>",
                   "      <key>",
                   "        <string>Year_Quarter_Period</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <boolean>true</boolean>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>Year_Half_Period</string>",
                   "      </key>",
                   "      <value>",
                   "        <boolean>true</boolean>",
@@ -9980,6 +10115,14 @@
               "        <int>163</int>",
               "      </value>",
               "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>Year_Half_Period</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>138</int>",
+              "      </value>",
+              "    </item>",
               "  </ColumnWidths>",
               "  <ColumnDisplayIndex>",
               "    <item>",
@@ -10078,12 +10221,28 @@
               "        <int>11</int>",
               "      </value>",
               "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>Year_Half_Period</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>12</int>",
+              "      </value>",
+              "    </item>",
               "  </ColumnDisplayIndex>",
               "  <ColumnFrozen />",
               "  <ColumnChecked>",
               "    <item>",
               "      <key>",
               "        <string>Year_Quarter_Period</string>",
+              "      </key>",
+              "      <value>",
+              "        <boolean>true</boolean>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>Year_Half_Period</string>",
               "      </key>",
               "      <value>",
               "        <boolean>true</boolean>",
@@ -17296,364 +17455,6 @@
         ]
       },
       {
-        "name": "D_ETA_Namozag_41",
-        "columns": [
-          {
-            "name": "TransactionData_Id",
-            "dataType": "string",
-            "sourceColumn": "TransactionData_Id",
-            "sourceProviderType": "Char"
-          },
-          {
-            "name": "kst_pageno",
-            "dataType": "string",
-            "sourceColumn": "kst_pageno",
-            "sourceProviderType": "Char"
-          },
-          {
-            "name": "kst_year",
-            "dataType": "string",
-            "sourceColumn": "kst_year",
-            "sourceProviderType": "Char"
-          },
-          {
-            "name": "bat_prd",
-            "dataType": "string",
-            "sourceColumn": "bat_prd",
-            "sourceProviderType": "Char"
-          },
-          {
-            "name": "kst_docdate",
-            "dataType": "dateTime",
-            "sourceColumn": "kst_docdate",
-            "formatString": "General Date",
-            "sourceProviderType": "DBTimeStamp"
-          },
-          {
-            "name": "kst_jul",
-            "dataType": "string",
-            "sourceColumn": "kst_jul",
-            "sourceProviderType": "Char"
-          },
-          {
-            "name": "kst_serl",
-            "dataType": "string",
-            "sourceColumn": "kst_serl",
-            "sourceProviderType": "Char"
-          },
-          {
-            "name": "gha_num",
-            "dataType": "string",
-            "sourceColumn": "gha_num",
-            "sourceProviderType": "Char"
-          },
-          {
-            "name": "gha_name",
-            "dataType": "string",
-            "sourceColumn": "gha_name",
-            "sourceProviderType": "Char"
-          },
-          {
-            "name": "kst_docnum",
-            "dataType": "string",
-            "sourceColumn": "kst_docnum",
-            "sourceProviderType": "Char"
-          },
-          {
-            "name": "kst_docnum1",
-            "dataType": "int64",
-            "sourceColumn": "kst_docnum1",
-            "sourceProviderType": "Integer"
-          },
-          {
-            "name": "kst_docnum2",
-            "dataType": "string",
-            "sourceColumn": "kst_docnum2",
-            "sourceProviderType": "Char"
-          },
-          {
-            "name": "kst_ghatype",
-            "dataType": "string",
-            "sourceColumn": "kst_ghatype",
-            "sourceProviderType": "Char"
-          },
-          {
-            "name": "kst_dealtype",
-            "dataType": "string",
-            "sourceColumn": "kst_dealtype",
-            "sourceProviderType": "Char"
-          },
-          {
-            "name": "kst_ksmval",
-            "dataType": "double",
-            "sourceColumn": "kst_ksmval",
-            "sourceProviderType": "Numeric"
-          },
-          {
-            "name": "kst_ratflag",
-            "dataType": "int64",
-            "sourceColumn": "kst_ratflag",
-            "sourceProviderType": "Integer"
-          },
-          {
-            "name": "kst_flag",
-            "dataType": "int64",
-            "sourceColumn": "kst_flag",
-            "sourceProviderType": "Integer"
-          },
-          {
-            "name": "kst_sysdate",
-            "dataType": "dateTime",
-            "sourceColumn": "kst_sysdate",
-            "formatString": "General Date",
-            "sourceProviderType": "DBTimeStamp"
-          },
-          {
-            "name": "kst_ruid",
-            "dataType": "int64",
-            "sourceColumn": "kst_ruid",
-            "sourceProviderType": "Integer"
-          },
-          {
-            "name": "kst_rsysdate",
-            "dataType": "dateTime",
-            "sourceColumn": "kst_rsysdate",
-            "formatString": "General Date",
-            "sourceProviderType": "DBTimeStamp"
-          },
-          {
-            "name": "kst_upuid",
-            "dataType": "int64",
-            "sourceColumn": "kst_upuid",
-            "sourceProviderType": "Integer"
-          },
-          {
-            "name": "kst_upsysdate",
-            "dataType": "dateTime",
-            "sourceColumn": "kst_upsysdate",
-            "formatString": "General Date",
-            "sourceProviderType": "DBTimeStamp"
-          },
-          {
-            "name": "flag",
-            "dataType": "int64",
-            "sourceColumn": "flag",
-            "sourceProviderType": "Integer"
-          },
-          {
-            "name": "Taxpayer_Id",
-            "dataType": "string",
-            "sourceColumn": "Taxpayer_Id",
-            "sourceProviderType": "Guid"
-          },
-          {
-            "name": "kst_taxid",
-            "dataType": "string",
-            "sourceColumn": "kst_taxid",
-            "sourceProviderType": "Char"
-          },
-          {
-            "name": "kst_file",
-            "dataType": "string",
-            "sourceColumn": "kst_file",
-            "sourceProviderType": "Char"
-          },
-          {
-            "name": "kst_date",
-            "dataType": "double",
-            "sourceColumn": "kst_date",
-            "sourceProviderType": "DBTimeStamp"
-          },
-          {
-            "name": "Invoice_Date",
-            "dataType": "dateTime",
-            "sourceColumn": "Invoice_Date",
-            "formatString": "General Date",
-            "sourceProviderType": "DBDate"
-          },
-          {
-            "name": "kst_natcode",
-            "dataType": "string",
-            "sourceColumn": "kst_natcode",
-            "sourceProviderType": "Char"
-          },
-          {
-            "name": "kst_totval",
-            "dataType": "double",
-            "sourceColumn": "kst_totval",
-            "sourceProviderType": "Numeric"
-          },
-          {
-            "name": "kst_ksmcode",
-            "dataType": "string",
-            "sourceColumn": "kst_ksmcode",
-            "sourceProviderType": "Char"
-          },
-          {
-            "name": "kst_netval",
-            "dataType": "double",
-            "sourceColumn": "kst_netval",
-            "sourceProviderType": "Numeric"
-          },
-          {
-            "name": "kst_prcnt",
-            "dataType": "double",
-            "sourceColumn": "kst_prcnt",
-            "sourceProviderType": "Numeric"
-          },
-          {
-            "name": "kst_taxval",
-            "dataType": "double",
-            "sourceColumn": "kst_taxval",
-            "sourceProviderType": "Numeric"
-          },
-          {
-            "name": "kst_currency",
-            "dataType": "string",
-            "sourceColumn": "kst_currency",
-            "sourceProviderType": "Char"
-          },
-          {
-            "name": "kst_uid",
-            "dataType": "string",
-            "sourceColumn": "kst_uid",
-            "sourceProviderType": "Char"
-          },
-          {
-            "name": "kst_reg",
-            "dataType": "string",
-            "sourceColumn": "kst_reg",
-            "sourceProviderType": "Char"
-          },
-          {
-            "name": "kst_acttype",
-            "dataType": "string",
-            "sourceColumn": "kst_acttype",
-            "sourceProviderType": "WChar"
-          },
-          {
-            "name": "bat_branch",
-            "dataType": "string",
-            "sourceColumn": "bat_branch",
-            "sourceProviderType": "Char"
-          },
-          {
-            "name": "Zero_Tax_Cause",
-            "dataType": "string",
-            "sourceColumn": "Zero_Tax_Cause",
-            "sourceProviderType": "WChar"
-          },
-          {
-            "name": "line_Number_Inside_Batch",
-            "dataType": "int64",
-            "sourceColumn": "line_Number_Inside_Batch",
-            "sourceProviderType": "Integer"
-          },
-          {
-            "name": "Insertion_Date",
-            "dataType": "dateTime",
-            "sourceColumn": "Insertion_Date",
-            "formatString": "General Date",
-            "sourceProviderType": "DBTimeStamp"
-          },
-          {
-            "name": "kst_lineno",
-            "dataType": "int64",
-            "sourceColumn": "kst_lineno",
-            "sourceProviderType": "Integer"
-          },
-          {
-            "name": "Developed_By",
-            "dataType": "string",
-            "sourceColumn": "Developed_By",
-            "sourceProviderType": "Char"
-          }
-        ],
-        "partitions": [
-          {
-            "name": "D_ETA_Namozag_41",
-            "dataView": "full",
-            "source": {
-              "query": " SELECT [dbo].[ETA_Namozag_41].* FROM [dbo].[ETA_Namozag_41] ",
-              "dataSource": "DWH_TAX"
-            }
-          }
-        ],
-        "measures": [
-          {
-            "name": "nmz41_NET_SUM_1",
-            "expression": "CALCULATE(SUM(D_ETA_Namozag_41[kst_netval]),D_ETA_Namozag_41[kst_ksmcode]=\"1\" )",
-            "isHidden": true
-          },
-          {
-            "name": "nmz41_NET_SUM_2",
-            "expression": "CALCULATE(SUM(D_ETA_Namozag_41[kst_netval]),D_ETA_Namozag_41[kst_ksmcode]=\"5\",D_ETA_Namozag_41[kst_ksmcode]=\"6\" )",
-            "isHidden": true
-          },
-          {
-            "name": "nmz41_NET_SUM_3",
-            "expression": "CALCULATE(SUM(D_ETA_Namozag_41[kst_netval]),D_ETA_Namozag_41[kst_ksmcode]=\"4\",D_ETA_Namozag_41[kst_ksmcode]=\"3\",D_ETA_Namozag_41[kst_ksmcode]=\"2\" )",
-            "isHidden": true
-          },
-          {
-            "name": "nmz41_NET_SUM",
-            "expression": "[nmz41_NET_SUM_1]+[nmz41_NET_SUM_2]-[nmz41_NET_SUM_3]"
-          },
-          {
-            "name": "nmz41_TAX_SUM_1",
-            "expression": "CALCULATE(SUM(D_ETA_Namozag_41[kst_taxval]),D_ETA_Namozag_41[kst_ksmcode]=\"1\" )",
-            "isHidden": true
-          },
-          {
-            "name": "nmz41_TAX_SUM_2",
-            "expression": "CALCULATE(SUM(D_ETA_Namozag_41[kst_taxval]),D_ETA_Namozag_41[kst_ksmcode]=\"5\",D_ETA_Namozag_41[kst_ksmcode]=\"6\" )",
-            "isHidden": true
-          },
-          {
-            "name": "nmz41_TAX_SUM_3",
-            "expression": "CALCULATE(SUM(D_ETA_Namozag_41[kst_taxval]),D_ETA_Namozag_41[kst_ksmcode]=\"4\",D_ETA_Namozag_41[kst_ksmcode]=\"3\",D_ETA_Namozag_41[kst_ksmcode]=\"2\" )",
-            "isHidden": true
-          },
-          {
-            "name": "nmz41_TAX_SUM",
-            "expression": "[nmz41_TAX_SUM_1]+[nmz41_TAX_SUM_2]-[nmz41_TAX_SUM_3]"
-          },
-          {
-            "name": "nmz41_TOTAL_Value_SUM_1",
-            "expression": "CALCULATE(SUM(D_ETA_Namozag_41[kst_totval]),D_ETA_Namozag_41[kst_ksmcode]=\"1\" )",
-            "isHidden": true
-          },
-          {
-            "name": "nmz41_TOTAL_Value_SUM_2",
-            "expression": "CALCULATE(SUM(D_ETA_Namozag_41[kst_totval]),D_ETA_Namozag_41[kst_ksmcode]=\"5\",D_ETA_Namozag_41[kst_ksmcode]=\"6\" )",
-            "isHidden": true
-          },
-          {
-            "name": "nmz41_TOTAL_Value_SUM_3",
-            "expression": "CALCULATE(SUM(D_ETA_Namozag_41[kst_taxval]),D_ETA_Namozag_41[kst_ksmcode]=\"4\",D_ETA_Namozag_41[kst_ksmcode]=\"3\",D_ETA_Namozag_41[kst_ksmcode]=\"2\" )",
-            "isHidden": true
-          },
-          {
-            "name": "nmz41_TOTAL_Value_SUM",
-            "expression": "[nmz41_TOTAL_Value_SUM_1]+[nmz41_TOTAL_Value_SUM_2]-[nmz41_TOTAL_Value_SUM_3]"
-          }
-        ],
-        "annotations": [
-          {
-            "name": "_TM_ExtProp_QueryDefinition",
-            "value": " SELECT [dbo].[ETA_Namozag_41].* FROM [dbo].[ETA_Namozag_41] "
-          },
-          {
-            "name": "_TM_ExtProp_DbTableName",
-            "value": "ETA_Namozag_41"
-          },
-          {
-            "name": "_TM_ExtProp_DbSchemaName",
-            "value": "dbo"
-          }
-        ]
-      },
-      {
         "name": "B_Dim_Date_Withholdings",
         "columns": [
           {
@@ -17751,6 +17552,14 @@
             "isNameInferred": true,
             "isDataTypeInferred": true,
             "sourceColumn": "B_Dim_Date_Decs[Year_Quarter_Period]"
+          },
+          {
+            "type": "calculatedTableColumn",
+            "name": "Year_Half_Period",
+            "dataType": "string",
+            "isNameInferred": true,
+            "isDataTypeInferred": true,
+            "sourceColumn": "B_Dim_Date_Decs[Year_Half_Period]"
           }
         ],
         "partitions": [
@@ -17996,6 +17805,2013 @@
               "type": "calculated",
               "expression": "CALCULATETABLE(B_Dim_Gehat_5asm_w_ta7seel)"
             }
+          }
+        ]
+      },
+      {
+        "name": "C_Dim_Withholding_Discount_Types",
+        "columns": [
+          {
+            "name": "Opponent_Id",
+            "dataType": "int64",
+            "sourceColumn": "Opponent_Id",
+            "sourceProviderType": "Integer"
+          },
+          {
+            "name": "Opponent_Name",
+            "dataType": "string",
+            "sourceColumn": "Opponent_Name",
+            "sourceProviderType": "WChar"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "C_Dim_Withholding_Discount_Types",
+            "dataView": "full",
+            "source": {
+              "query": " SELECT [dbo].[Dim_Withholding_Discount_Types].* FROM [dbo].[Dim_Withholding_Discount_Types] ",
+              "dataSource": "DWH_TAX"
+            }
+          }
+        ],
+        "annotations": [
+          {
+            "name": "_TM_ExtProp_QueryDefinition",
+            "value": " SELECT [dbo].[Dim_Withholding_Discount_Types].* FROM [dbo].[Dim_Withholding_Discount_Types] "
+          },
+          {
+            "name": "_TM_ExtProp_DbTableName",
+            "value": "Dim_Withholding_Discount_Types"
+          },
+          {
+            "name": "_TM_ExtProp_DbSchemaName",
+            "value": "dbo"
+          }
+        ]
+      },
+      {
+        "name": "C_Dim_Withholding_Transaction_Types",
+        "columns": [
+          {
+            "name": "TransactionType_Id",
+            "dataType": "int64",
+            "sourceColumn": "TransactionType_Id",
+            "sourceProviderType": "Integer"
+          },
+          {
+            "name": "TransactionType_Name",
+            "dataType": "string",
+            "sourceColumn": "TransactionType_Name",
+            "sourceProviderType": "WChar"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "C_Dim_Withholding_Transaction_Types",
+            "dataView": "full",
+            "source": {
+              "query": " SELECT [dbo].[Dim_Withholding_Transaction_Types].* FROM [dbo].[Dim_Withholding_Transaction_Types] ",
+              "dataSource": "DWH_TAX"
+            }
+          }
+        ],
+        "annotations": [
+          {
+            "name": "_TM_ExtProp_QueryDefinition",
+            "value": " SELECT [dbo].[Dim_Withholding_Transaction_Types].* FROM [dbo].[Dim_Withholding_Transaction_Types] "
+          },
+          {
+            "name": "_TM_ExtProp_DbTableName",
+            "value": "Dim_Withholding_Transaction_Types"
+          },
+          {
+            "name": "_TM_ExtProp_DbSchemaName",
+            "value": "dbo"
+          }
+        ]
+      },
+      {
+        "name": "D_ETA_Namozag_41",
+        "columns": [
+          {
+            "name": "TransactionData_Id",
+            "dataType": "string",
+            "sourceColumn": "TransactionData_Id",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "kst_pageno",
+            "dataType": "string",
+            "sourceColumn": "kst_pageno",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "kst_year",
+            "dataType": "string",
+            "sourceColumn": "kst_year",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "bat_prd",
+            "dataType": "string",
+            "sourceColumn": "bat_prd",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "kst_docdate",
+            "dataType": "dateTime",
+            "sourceColumn": "kst_docdate",
+            "formatString": "General Date",
+            "sourceProviderType": "DBTimeStamp"
+          },
+          {
+            "name": "kst_jul",
+            "dataType": "string",
+            "sourceColumn": "kst_jul",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "kst_serl",
+            "dataType": "string",
+            "sourceColumn": "kst_serl",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "gha_num",
+            "dataType": "string",
+            "sourceColumn": "gha_num",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "gha_name",
+            "dataType": "string",
+            "sourceColumn": "gha_name",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "kst_docnum",
+            "dataType": "string",
+            "sourceColumn": "kst_docnum",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "kst_docnum1",
+            "dataType": "int64",
+            "sourceColumn": "kst_docnum1",
+            "sourceProviderType": "Integer"
+          },
+          {
+            "name": "kst_docnum2",
+            "dataType": "string",
+            "sourceColumn": "kst_docnum2",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "kst_ghatype",
+            "dataType": "string",
+            "sourceColumn": "kst_ghatype",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "kst_dealtype",
+            "dataType": "string",
+            "sourceColumn": "kst_dealtype",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "kst_ksmval",
+            "dataType": "double",
+            "sourceColumn": "kst_ksmval",
+            "sourceProviderType": "Numeric"
+          },
+          {
+            "name": "kst_ratflag",
+            "dataType": "int64",
+            "sourceColumn": "kst_ratflag",
+            "sourceProviderType": "Integer"
+          },
+          {
+            "name": "kst_flag",
+            "dataType": "int64",
+            "sourceColumn": "kst_flag",
+            "sourceProviderType": "Integer"
+          },
+          {
+            "name": "kst_sysdate",
+            "dataType": "dateTime",
+            "sourceColumn": "kst_sysdate",
+            "formatString": "General Date",
+            "sourceProviderType": "DBTimeStamp"
+          },
+          {
+            "name": "kst_ruid",
+            "dataType": "int64",
+            "sourceColumn": "kst_ruid",
+            "sourceProviderType": "Integer"
+          },
+          {
+            "name": "kst_rsysdate",
+            "dataType": "dateTime",
+            "sourceColumn": "kst_rsysdate",
+            "formatString": "General Date",
+            "sourceProviderType": "DBTimeStamp"
+          },
+          {
+            "name": "kst_upuid",
+            "dataType": "int64",
+            "sourceColumn": "kst_upuid",
+            "sourceProviderType": "Integer"
+          },
+          {
+            "name": "kst_upsysdate",
+            "dataType": "dateTime",
+            "sourceColumn": "kst_upsysdate",
+            "formatString": "General Date",
+            "sourceProviderType": "DBTimeStamp"
+          },
+          {
+            "name": "flag",
+            "dataType": "int64",
+            "sourceColumn": "flag",
+            "sourceProviderType": "Integer"
+          },
+          {
+            "name": "Taxpayer_Id",
+            "dataType": "string",
+            "sourceColumn": "Taxpayer_Id",
+            "sourceProviderType": "Guid"
+          },
+          {
+            "name": "kst_taxid",
+            "dataType": "string",
+            "sourceColumn": "kst_taxid",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "kst_file",
+            "dataType": "string",
+            "sourceColumn": "kst_file",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "kst_date",
+            "dataType": "dateTime",
+            "sourceColumn": "kst_date",
+            "formatString": "General Date",
+            "sourceProviderType": "DBTimeStamp"
+          },
+          {
+            "name": "Invoice_Date",
+            "dataType": "dateTime",
+            "sourceColumn": "Invoice_Date",
+            "formatString": "General Date",
+            "sourceProviderType": "DBDate"
+          },
+          {
+            "name": "kst_natcode",
+            "dataType": "string",
+            "sourceColumn": "kst_natcode",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "kst_totval",
+            "dataType": "double",
+            "sourceColumn": "kst_totval",
+            "sourceProviderType": "Numeric"
+          },
+          {
+            "name": "kst_ksmcode",
+            "dataType": "string",
+            "sourceColumn": "kst_ksmcode",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "kst_netval",
+            "dataType": "double",
+            "sourceColumn": "kst_netval",
+            "sourceProviderType": "Numeric"
+          },
+          {
+            "name": "kst_prcnt",
+            "dataType": "double",
+            "sourceColumn": "kst_prcnt",
+            "sourceProviderType": "Numeric"
+          },
+          {
+            "name": "kst_taxval",
+            "dataType": "double",
+            "sourceColumn": "kst_taxval",
+            "sourceProviderType": "Numeric"
+          },
+          {
+            "name": "kst_currency",
+            "dataType": "string",
+            "sourceColumn": "kst_currency",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "kst_uid",
+            "dataType": "string",
+            "sourceColumn": "kst_uid",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "kst_reg",
+            "dataType": "string",
+            "sourceColumn": "kst_reg",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "kst_acttype",
+            "dataType": "string",
+            "sourceColumn": "kst_acttype",
+            "sourceProviderType": "WChar"
+          },
+          {
+            "name": "bat_branch",
+            "dataType": "string",
+            "sourceColumn": "bat_branch",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "Zero_Tax_Cause",
+            "dataType": "string",
+            "sourceColumn": "Zero_Tax_Cause",
+            "sourceProviderType": "WChar"
+          },
+          {
+            "name": "line_Number_Inside_Batch",
+            "dataType": "int64",
+            "sourceColumn": "line_Number_Inside_Batch",
+            "sourceProviderType": "Integer"
+          },
+          {
+            "name": "Insertion_Date",
+            "dataType": "dateTime",
+            "sourceColumn": "Insertion_Date",
+            "formatString": "General Date",
+            "sourceProviderType": "DBTimeStamp"
+          },
+          {
+            "name": "kst_lineno",
+            "dataType": "int64",
+            "sourceColumn": "kst_lineno",
+            "sourceProviderType": "Integer"
+          },
+          {
+            "name": "Developed_By",
+            "dataType": "string",
+            "sourceColumn": "Developed_By",
+            "sourceProviderType": "Char"
+          },
+          {
+            "name": "Status",
+            "dataType": "string",
+            "sourceColumn": "Status"
+          },
+          {
+            "name": "National_ID",
+            "dataType": "string",
+            "sourceColumn": "National_ID"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "D_ETA_Namozag_411",
+            "dataView": "full",
+            "source": {
+              "query": " SELECT [dbo].[ETA_Namozag_41].* FROM [dbo].[ETA_Namozag_41] ",
+              "dataSource": "DWH_TAX"
+            },
+            "annotations": [
+              {
+                "name": "TableWidgetSerialization",
+                "value": [
+                  "<?xml version=\"1.0\" encoding=\"UTF-16\"?><Gemini xmlns=\"TableWidgetSerialization\"><AnnotationContent><![CDATA[<?xml version=\"1.0\"?>",
+                  "<TableWidgetGridSerialization xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\">",
+                  "  <ColumnSuggestedType />",
+                  "  <ColumnFormat />",
+                  "  <ColumnAccuracy />",
+                  "  <ColumnCurrencySymbol />",
+                  "  <ColumnPositivePattern />",
+                  "  <ColumnNegativePattern />",
+                  "  <ColumnWidths>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>TransactionData_Id</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>155</int>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>kst_pageno</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>107</int>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>kst_year</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>88</int>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>bat_prd</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>84</int>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>kst_docdate</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>111</int>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>kst_jul</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>75</int>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>kst_serl</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>81</int>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>gha_num</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>94</int>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>gha_name</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>100</int>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>kst_docnum</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>112</int>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>kst_docnum1</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>120</int>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>kst_docnum2</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>120</int>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>kst_ghatype</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>112</int>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>kst_dealtype</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>113</int>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>kst_ksmval</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>103</int>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>kst_ratflag</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>99</int>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>kst_flag</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>82</int>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>kst_sysdate</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>108</int>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>kst_ruid</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>84</int>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>kst_rsysdate</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>113</int>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>kst_upuid</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>95</int>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>kst_upsysdate</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>124</int>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>flag</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>56</int>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>Taxpayer_Id</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>113</int>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>kst_taxid</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>91</int>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>kst_file</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>76</int>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>kst_date</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>88</int>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>Invoice_Date</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>116</int>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>kst_natcode</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>111</int>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>kst_totval</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>96</int>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>kst_ksmcode</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>116</int>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>kst_netval</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>98</int>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>kst_prcnt</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>94</int>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>kst_taxval</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>98</int>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>kst_currency</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>116</int>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>kst_uid</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>79</int>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>kst_reg</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>81</int>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>kst_acttype</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>108</int>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>bat_branch</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>106</int>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>Zero_Tax_Cause</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>139</int>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>line_Number_Inside_Batch</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>197</int>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>Insertion_Date</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>125</int>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>kst_lineno</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>96</int>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>Developed_By</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>124</int>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>Status</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>74</int>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>National_ID</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>105</int>",
+                  "      </value>",
+                  "    </item>",
+                  "  </ColumnWidths>",
+                  "  <ColumnDisplayIndex>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>TransactionData_Id</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>0</int>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>kst_pageno</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>1</int>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>kst_year</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>2</int>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>bat_prd</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>3</int>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>kst_docdate</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>4</int>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>kst_jul</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>5</int>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>kst_serl</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>6</int>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>gha_num</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>7</int>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>gha_name</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>8</int>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>kst_docnum</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>9</int>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>kst_docnum1</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>10</int>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>kst_docnum2</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>11</int>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>kst_ghatype</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>12</int>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>kst_dealtype</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>13</int>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>kst_ksmval</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>14</int>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>kst_ratflag</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>15</int>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>kst_flag</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>16</int>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>kst_sysdate</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>17</int>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>kst_ruid</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>18</int>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>kst_rsysdate</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>19</int>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>kst_upuid</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>20</int>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>kst_upsysdate</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>21</int>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>flag</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>22</int>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>Taxpayer_Id</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>23</int>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>kst_taxid</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>24</int>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>kst_file</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>25</int>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>kst_date</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>26</int>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>Invoice_Date</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>27</int>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>kst_natcode</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>28</int>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>kst_totval</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>29</int>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>kst_ksmcode</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>30</int>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>kst_netval</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>31</int>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>kst_prcnt</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>32</int>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>kst_taxval</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>33</int>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>kst_currency</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>34</int>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>kst_uid</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>35</int>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>kst_reg</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>36</int>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>kst_acttype</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>37</int>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>bat_branch</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>38</int>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>Zero_Tax_Cause</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>39</int>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>line_Number_Inside_Batch</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>40</int>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>Insertion_Date</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>41</int>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>kst_lineno</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>42</int>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>Developed_By</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>43</int>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>Status</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>44</int>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>National_ID</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <int>45</int>",
+                  "      </value>",
+                  "    </item>",
+                  "  </ColumnDisplayIndex>",
+                  "  <ColumnFrozen />",
+                  "  <ColumnChecked>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>Status</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <boolean>true</boolean>",
+                  "      </value>",
+                  "    </item>",
+                  "    <item>",
+                  "      <key>",
+                  "        <string>National_ID</string>",
+                  "      </key>",
+                  "      <value>",
+                  "        <boolean>true</boolean>",
+                  "      </value>",
+                  "    </item>",
+                  "  </ColumnChecked>",
+                  "  <ColumnFilter />",
+                  "  <SelectionFilter />",
+                  "  <FilterParameters />",
+                  "  <IsSortDescending>false</IsSortDescending>",
+                  "</TableWidgetGridSerialization>]]></AnnotationContent></Gemini>"
+                ]
+              }
+            ]
+          }
+        ],
+        "measures": [
+          {
+            "name": "NMZ41_Net_Value_KSM_1",
+            "expression": "CALCULATE(SUM(D_ETA_Namozag_41[kst_netval]),D_ETA_Namozag_41[kst_ksmcode]=\"1\")",
+            "isHidden": true
+          },
+          {
+            "name": "NMZ41_Net_Value_KSM_2",
+            "expression": "CALCULATE(SUM(D_ETA_Namozag_41[kst_netval]),D_ETA_Namozag_41[kst_ksmcode]=\"5\"&&D_ETA_Namozag_41[kst_ksmcode]=\"6\")",
+            "isHidden": true
+          },
+          {
+            "name": "NMZ41_Net_Value_KSM_3",
+            "expression": "CALCULATE(SUM(D_ETA_Namozag_41[kst_netval]),D_ETA_Namozag_41[kst_ksmcode]=\"2\"&&D_ETA_Namozag_41[kst_ksmcode]=\"3\"&&D_ETA_Namozag_41[kst_ksmcode]=\"4\")",
+            "isHidden": true
+          },
+          {
+            "name": "nmz41_NET_SUM",
+            "expression": "[NMZ41_Net_Value_KSM_1]+[NMZ41_Net_Value_KSM_2]-[NMZ41_Net_Value_KSM_3]"
+          },
+          {
+            "name": "NMZ41_TAX_Value_KSM_1",
+            "expression": "CALCULATE(SUM(D_ETA_Namozag_41[kst_taxval]),D_ETA_Namozag_41[kst_ksmcode]=\"1\")",
+            "isHidden": true
+          },
+          {
+            "name": "NMZ41_TAX_Value_KSM_2",
+            "expression": "CALCULATE(SUM(D_ETA_Namozag_41[kst_taxval]),D_ETA_Namozag_41[kst_ksmcode]=\"5\"&&D_ETA_Namozag_41[kst_ksmcode]=\"6\")",
+            "isHidden": true
+          },
+          {
+            "name": "NMZ41_TAX_Value_KSM_3",
+            "expression": "CALCULATE(SUM(D_ETA_Namozag_41[kst_taxval]),D_ETA_Namozag_41[kst_ksmcode]=\"2\"&&D_ETA_Namozag_41[kst_ksmcode]=\"3\"&&D_ETA_Namozag_41[kst_ksmcode]=\"4\")",
+            "isHidden": true
+          },
+          {
+            "name": "nmz41_TAX_SUM",
+            "expression": "[NMZ41_TAX_Value_KSM_1]+[NMZ41_TAX_Value_KSM_2]-[NMZ41_TAX_Value_KSM_3]"
+          },
+          {
+            "name": "NMZ41_TOTAL_Value_KSM_1",
+            "expression": "CALCULATE(SUM(D_ETA_Namozag_41[kst_totval]),D_ETA_Namozag_41[kst_ksmcode]=\"1\")",
+            "isHidden": true
+          },
+          {
+            "name": "NMZ41_TOTAL_Value_KSM_2",
+            "expression": "CALCULATE(SUM(D_ETA_Namozag_41[kst_totval]),D_ETA_Namozag_41[kst_ksmcode]=\"5\"&&D_ETA_Namozag_41[kst_ksmcode]=\"6\")",
+            "isHidden": true
+          },
+          {
+            "name": "NMZ41_TOTAL_Value_KSM_3",
+            "expression": "CALCULATE(SUM(D_ETA_Namozag_41[kst_totval]),D_ETA_Namozag_41[kst_ksmcode]=\"2\"&&D_ETA_Namozag_41[kst_ksmcode]=\"3\"&&D_ETA_Namozag_41[kst_ksmcode]=\"4\")",
+            "isHidden": true
+          },
+          {
+            "name": "nmz41_TOTAL_Value_SUM",
+            "expression": "[NMZ41_TOTAL_Value_KSM_1]+[NMZ41_TOTAL_Value_KSM_2]-[NMZ41_TOTAL_Value_KSM_3]"
+          }
+        ],
+        "annotations": [
+          {
+            "name": "_TM_ExtProp_QueryDefinition",
+            "value": " SELECT [dbo].[ETA_Namozag_41].* FROM [dbo].[ETA_Namozag_41] "
+          },
+          {
+            "name": "_TM_ExtProp_DbTableName",
+            "value": "ETA_Namozag_41"
+          },
+          {
+            "name": "_TM_ExtProp_DbSchemaName",
+            "value": "dbo"
+          },
+          {
+            "name": "TableWidgetSerialization",
+            "value": [
+              "<?xml version=\"1.0\" encoding=\"UTF-16\"?><Gemini xmlns=\"TableWidgetSerialization\"><AnnotationContent><![CDATA[<?xml version=\"1.0\"?>",
+              "<TableWidgetGridSerialization xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\">",
+              "  <ColumnSuggestedType />",
+              "  <ColumnFormat />",
+              "  <ColumnAccuracy />",
+              "  <ColumnCurrencySymbol />",
+              "  <ColumnPositivePattern />",
+              "  <ColumnNegativePattern />",
+              "  <ColumnWidths>",
+              "    <item>",
+              "      <key>",
+              "        <string>TransactionData_Id</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>155</int>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>kst_pageno</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>107</int>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>kst_year</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>88</int>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>bat_prd</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>84</int>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>kst_docdate</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>111</int>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>kst_jul</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>75</int>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>kst_serl</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>81</int>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>gha_num</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>94</int>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>gha_name</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>100</int>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>kst_docnum</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>112</int>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>kst_docnum1</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>120</int>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>kst_docnum2</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>120</int>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>kst_ghatype</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>112</int>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>kst_dealtype</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>113</int>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>kst_ksmval</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>103</int>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>kst_ratflag</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>99</int>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>kst_flag</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>82</int>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>kst_sysdate</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>108</int>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>kst_ruid</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>84</int>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>kst_rsysdate</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>113</int>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>kst_upuid</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>95</int>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>kst_upsysdate</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>124</int>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>flag</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>56</int>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>Taxpayer_Id</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>113</int>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>kst_taxid</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>91</int>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>kst_file</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>76</int>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>kst_date</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>88</int>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>Invoice_Date</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>116</int>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>kst_natcode</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>111</int>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>kst_totval</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>96</int>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>kst_ksmcode</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>116</int>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>kst_netval</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>98</int>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>kst_prcnt</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>94</int>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>kst_taxval</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>98</int>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>kst_currency</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>116</int>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>kst_uid</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>79</int>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>kst_reg</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>81</int>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>kst_acttype</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>108</int>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>bat_branch</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>106</int>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>Zero_Tax_Cause</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>139</int>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>line_Number_Inside_Batch</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>197</int>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>Insertion_Date</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>125</int>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>kst_lineno</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>96</int>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>Developed_By</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>124</int>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>Status</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>74</int>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>National_ID</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>105</int>",
+              "      </value>",
+              "    </item>",
+              "  </ColumnWidths>",
+              "  <ColumnDisplayIndex>",
+              "    <item>",
+              "      <key>",
+              "        <string>TransactionData_Id</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>0</int>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>kst_pageno</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>1</int>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>kst_year</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>2</int>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>bat_prd</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>3</int>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>kst_docdate</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>4</int>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>kst_jul</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>5</int>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>kst_serl</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>6</int>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>gha_num</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>7</int>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>gha_name</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>8</int>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>kst_docnum</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>9</int>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>kst_docnum1</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>10</int>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>kst_docnum2</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>11</int>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>kst_ghatype</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>12</int>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>kst_dealtype</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>13</int>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>kst_ksmval</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>14</int>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>kst_ratflag</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>15</int>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>kst_flag</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>16</int>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>kst_sysdate</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>17</int>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>kst_ruid</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>18</int>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>kst_rsysdate</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>19</int>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>kst_upuid</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>20</int>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>kst_upsysdate</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>21</int>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>flag</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>22</int>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>Taxpayer_Id</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>23</int>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>kst_taxid</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>24</int>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>kst_file</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>25</int>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>kst_date</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>26</int>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>Invoice_Date</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>27</int>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>kst_natcode</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>28</int>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>kst_totval</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>29</int>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>kst_ksmcode</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>30</int>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>kst_netval</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>31</int>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>kst_prcnt</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>32</int>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>kst_taxval</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>33</int>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>kst_currency</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>34</int>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>kst_uid</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>35</int>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>kst_reg</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>36</int>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>kst_acttype</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>37</int>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>bat_branch</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>38</int>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>Zero_Tax_Cause</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>39</int>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>line_Number_Inside_Batch</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>40</int>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>Insertion_Date</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>41</int>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>kst_lineno</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>42</int>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>Developed_By</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>43</int>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>Status</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>44</int>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>National_ID</string>",
+              "      </key>",
+              "      <value>",
+              "        <int>45</int>",
+              "      </value>",
+              "    </item>",
+              "  </ColumnDisplayIndex>",
+              "  <ColumnFrozen />",
+              "  <ColumnChecked>",
+              "    <item>",
+              "      <key>",
+              "        <string>Status</string>",
+              "      </key>",
+              "      <value>",
+              "        <boolean>true</boolean>",
+              "      </value>",
+              "    </item>",
+              "    <item>",
+              "      <key>",
+              "        <string>National_ID</string>",
+              "      </key>",
+              "      <value>",
+              "        <boolean>true</boolean>",
+              "      </value>",
+              "    </item>",
+              "  </ColumnChecked>",
+              "  <ColumnFilter />",
+              "  <SelectionFilter />",
+              "  <FilterParameters />",
+              "  <IsSortDescending>false</IsSortDescending>",
+              "</TableWidgetGridSerialization>]]></AnnotationContent></Gemini>"
+            ]
           }
         ]
       }
@@ -18415,13 +20231,6 @@
         "toColumn": "Unique_Tax_Id"
       },
       {
-        "name": "476c75a0-3177-47bf-8f5c-04aa895d8f1e",
-        "fromTable": "D_ETA_Namozag_41",
-        "fromColumn": "Invoice_Date",
-        "toTable": "B_Dim_Date_Withholdings",
-        "toColumn": "Date_Iso"
-      },
-      {
         "name": "36a568d9-2097-4b21-b863-c331fdcbb3b6",
         "fromTable": "D_ETA_Namozag_46",
         "fromColumn": "Invoice_Date",
@@ -18434,14 +20243,6 @@
         "fromColumn": "Invoice_Date",
         "toTable": "B_Dim_Date_Withholdings",
         "toColumn": "Date_Iso"
-      },
-      {
-        "name": "c2d953f8-efdc-41aa-bdba-b98d80b709ca",
-        "fromTable": "D_ETA_Namozag_41",
-        "fromColumn": "kst_taxid",
-        "toTable": "B_Dim_TaxPayers_Universe_WithHoldings",
-        "toColumn": "Unique_Tax_Id",
-        "crossFilteringBehavior": "bothDirections"
       },
       {
         "name": "0be8f0bc-e6b2-4206-a7e2-0e637aef0e4e",
@@ -18460,12 +20261,43 @@
         "crossFilteringBehavior": "bothDirections"
       },
       {
-        "name": "6088ac6e-472d-4798-ba7f-7933b02b096c",
+        "name": "c678368e-6f43-4cc8-96e1-c53421b5b3f8",
         "fromTable": "D_ETA_Namozag_41",
         "fromColumn": "gha_num",
         "toTable": "B_Dim_Gehat_5asm_w_ta7seel",
         "toColumn": "Unique_Tax_Id",
         "crossFilteringBehavior": "bothDirections"
+      },
+      {
+        "name": "2ff224e0-2d18-487c-8c93-0c1e6c7ec45a",
+        "fromTable": "D_ETA_Namozag_41",
+        "fromColumn": "kst_taxid",
+        "toTable": "B_Dim_TaxPayers_Universe_WithHoldings",
+        "toColumn": "Unique_Tax_Id",
+        "crossFilteringBehavior": "bothDirections"
+      },
+      {
+        "name": "eb0033eb-6020-4dce-b02a-1da1e7376887",
+        "fromTable": "D_ETA_Namozag_41",
+        "fromColumn": "kst_natcode",
+        "toTable": "C_Dim_Withholding_Transaction_Types",
+        "toColumn": "TransactionType_Id",
+        "crossFilteringBehavior": "bothDirections"
+      },
+      {
+        "name": "aec025b2-43a1-45c7-9c5d-79de51d9a2dd",
+        "fromTable": "D_ETA_Namozag_41",
+        "fromColumn": "kst_ksmcode",
+        "toTable": "C_Dim_Withholding_Discount_Types",
+        "toColumn": "Opponent_Id",
+        "crossFilteringBehavior": "bothDirections"
+      },
+      {
+        "name": "d0f1d293-ae5b-4053-ab43-9d4cb0a79098",
+        "fromTable": "D_ETA_Namozag_41",
+        "fromColumn": "Invoice_Date",
+        "toTable": "B_Dim_Date_Withholdings",
+        "toColumn": "Date_Iso"
       }
     ],
     "perspectives": [
@@ -18562,6 +20394,9 @@
               },
               {
                 "name": "Year_Quarter_Period"
+              },
+              {
+                "name": "Year_Half_Period"
               }
             ]
           },
@@ -19124,181 +20959,6 @@
             ]
           },
           {
-            "name": "D_ETA_Namozag_41",
-            "columns": [
-              {
-                "name": "bat_branch"
-              },
-              {
-                "name": "bat_prd"
-              },
-              {
-                "name": "Developed_By"
-              },
-              {
-                "name": "flag"
-              },
-              {
-                "name": "gha_name"
-              },
-              {
-                "name": "gha_num"
-              },
-              {
-                "name": "Insertion_Date"
-              },
-              {
-                "name": "Invoice_Date"
-              },
-              {
-                "name": "kst_acttype"
-              },
-              {
-                "name": "kst_currency"
-              },
-              {
-                "name": "kst_date"
-              },
-              {
-                "name": "kst_dealtype"
-              },
-              {
-                "name": "kst_docdate"
-              },
-              {
-                "name": "kst_docnum"
-              },
-              {
-                "name": "kst_docnum1"
-              },
-              {
-                "name": "kst_docnum2"
-              },
-              {
-                "name": "kst_file"
-              },
-              {
-                "name": "kst_flag"
-              },
-              {
-                "name": "kst_ghatype"
-              },
-              {
-                "name": "kst_jul"
-              },
-              {
-                "name": "kst_ksmcode"
-              },
-              {
-                "name": "kst_ksmval"
-              },
-              {
-                "name": "kst_lineno"
-              },
-              {
-                "name": "kst_natcode"
-              },
-              {
-                "name": "kst_netval"
-              },
-              {
-                "name": "kst_pageno"
-              },
-              {
-                "name": "kst_prcnt"
-              },
-              {
-                "name": "kst_ratflag"
-              },
-              {
-                "name": "kst_reg"
-              },
-              {
-                "name": "kst_rsysdate"
-              },
-              {
-                "name": "kst_ruid"
-              },
-              {
-                "name": "kst_serl"
-              },
-              {
-                "name": "kst_sysdate"
-              },
-              {
-                "name": "kst_taxid"
-              },
-              {
-                "name": "kst_taxval"
-              },
-              {
-                "name": "kst_totval"
-              },
-              {
-                "name": "kst_uid"
-              },
-              {
-                "name": "kst_upsysdate"
-              },
-              {
-                "name": "kst_upuid"
-              },
-              {
-                "name": "kst_year"
-              },
-              {
-                "name": "line_Number_Inside_Batch"
-              },
-              {
-                "name": "Taxpayer_Id"
-              },
-              {
-                "name": "TransactionData_Id"
-              },
-              {
-                "name": "Zero_Tax_Cause"
-              }
-            ],
-            "measures": [
-              {
-                "name": "nmz41_NET_SUM"
-              },
-              {
-                "name": "nmz41_NET_SUM_1"
-              },
-              {
-                "name": "nmz41_NET_SUM_2"
-              },
-              {
-                "name": "nmz41_NET_SUM_3"
-              },
-              {
-                "name": "nmz41_TAX_SUM"
-              },
-              {
-                "name": "nmz41_TAX_SUM_1"
-              },
-              {
-                "name": "nmz41_TAX_SUM_2"
-              },
-              {
-                "name": "nmz41_TAX_SUM_3"
-              },
-              {
-                "name": "nmz41_TOTAL_Value_SUM"
-              },
-              {
-                "name": "nmz41_TOTAL_Value_SUM_1"
-              },
-              {
-                "name": "nmz41_TOTAL_Value_SUM_2"
-              },
-              {
-                "name": "nmz41_TOTAL_Value_SUM_3"
-              }
-            ]
-          },
-          {
             "name": "D_ETA_Namozag_46",
             "columns": [
               {
@@ -19680,6 +21340,171 @@
               },
               {
                 "name": "Region_Name"
+              }
+            ]
+          },
+          {
+            "name": "C_Dim_Withholding_Discount_Types",
+            "columns": [
+              {
+                "name": "Opponent_Id"
+              },
+              {
+                "name": "Opponent_Name"
+              }
+            ]
+          },
+          {
+            "name": "C_Dim_Withholding_Transaction_Types",
+            "columns": [
+              {
+                "name": "TransactionType_Id"
+              },
+              {
+                "name": "TransactionType_Name"
+              }
+            ]
+          },
+          {
+            "name": "D_ETA_Namozag_41",
+            "columns": [
+              {
+                "name": "bat_branch"
+              },
+              {
+                "name": "bat_prd"
+              },
+              {
+                "name": "Developed_By"
+              },
+              {
+                "name": "flag"
+              },
+              {
+                "name": "gha_name"
+              },
+              {
+                "name": "gha_num"
+              },
+              {
+                "name": "Insertion_Date"
+              },
+              {
+                "name": "Invoice_Date"
+              },
+              {
+                "name": "kst_acttype"
+              },
+              {
+                "name": "kst_currency"
+              },
+              {
+                "name": "kst_date"
+              },
+              {
+                "name": "kst_dealtype"
+              },
+              {
+                "name": "kst_docdate"
+              },
+              {
+                "name": "kst_docnum"
+              },
+              {
+                "name": "kst_docnum1"
+              },
+              {
+                "name": "kst_docnum2"
+              },
+              {
+                "name": "kst_file"
+              },
+              {
+                "name": "kst_flag"
+              },
+              {
+                "name": "kst_ghatype"
+              },
+              {
+                "name": "kst_jul"
+              },
+              {
+                "name": "kst_ksmcode"
+              },
+              {
+                "name": "kst_ksmval"
+              },
+              {
+                "name": "kst_lineno"
+              },
+              {
+                "name": "kst_natcode"
+              },
+              {
+                "name": "kst_netval"
+              },
+              {
+                "name": "kst_pageno"
+              },
+              {
+                "name": "kst_prcnt"
+              },
+              {
+                "name": "kst_ratflag"
+              },
+              {
+                "name": "kst_reg"
+              },
+              {
+                "name": "kst_rsysdate"
+              },
+              {
+                "name": "kst_ruid"
+              },
+              {
+                "name": "kst_serl"
+              },
+              {
+                "name": "kst_sysdate"
+              },
+              {
+                "name": "kst_taxid"
+              },
+              {
+                "name": "kst_taxval"
+              },
+              {
+                "name": "kst_totval"
+              },
+              {
+                "name": "kst_uid"
+              },
+              {
+                "name": "kst_upsysdate"
+              },
+              {
+                "name": "kst_upuid"
+              },
+              {
+                "name": "kst_year"
+              },
+              {
+                "name": "line_Number_Inside_Batch"
+              },
+              {
+                "name": "Taxpayer_Id"
+              },
+              {
+                "name": "TransactionData_Id"
+              },
+              {
+                "name": "Zero_Tax_Cause"
+              },
+              {
+                "name": "National_ID"
+              },
+              {
+                "name": "Status"
               }
             ]
           }
